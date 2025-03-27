@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Disney Channel (MENA) - TV Guide</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Raleway', sans-serif;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f4f4f4;
+            direction: ltr;
+        }
+
+        body[lang="ar"] {
+            direction: rtl;
+        }
+
+        .header-container {
+            text-align: center;
+            padding: 15px;
+            border-radius: 10px;
+            margin-bottom: 15px;
+            background: linear-gradient(135deg, #004aad, #009dff);
+            box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.15);
+            position: relative;
+        }
+
+        .header-container img {
+            max-width: 100px; /* Reduced Logo Size */
+            display: block;
+            margin: 0 auto 5px;
+        }
+
+        .title {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 1.1em; /* Reduced Title Size */
+            font-weight: 700;
+            color: white;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.3);
+        }
+
+        .subtitle {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 0.9em;
+            font-weight: 600;
+            color: #cce7ff;
+            margin-top: 3px;
+        }
+
+        .source {
+            text-align: center;
+            font-size: 0.9em;
+            color: #555;
+            margin-top: 30px;
+        }
+
+        .selector-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 15px;
+            flex-wrap: wrap;
+        }
+
+        body[lang="ar"] .selector-container {
+            direction: rtl;
+        }
+
+        .selector-container label {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 14px;
+            font-weight: 600;
+            margin-right: 5px;
+            margin-bottom: 5px;
+        }
+
+        body[lang="ar"] .selector-container label {
+            margin-left: 5px;
+            margin-right: 0;
+        }
+
+        input[type="date"], select {
+            padding: 8px;
+            font-size: 14px;
+            font-family: 'Raleway', sans-serif;
+            border-radius: 15px;
+            border: 2px solid #0073e6;
+            background-color: #ffffff;
+            cursor: pointer;
+            transition: all 0.3s ease-in-out;
+            outline: none;
+            width: 160px;
+            text-align: center;
+            margin-bottom: 5px;
+        }
+
+        .buttons-container {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 10px;
+            margin-bottom: 20px; /* Added spacing below buttons */
+        }
+
+         body[lang="ar"] .buttons-container {
+            direction: rtl;
+        }
+
+        .buttons-container button {
+            font-family: 'Montserrat', sans-serif;
+            padding: 6px 12px;
+            font-size: 12px;
+            border-radius: 15px;
+            border: 2px solid #0073e6;
+            background-color: #0073e6;
+            color: white;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .buttons-container button:hover {
+            background-color: #005bb5;
+        }
+
+        .program {
+            border-bottom: 1px solid #ddd;
+            padding: 15px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+            margin-bottom: 15px;
+          
+        }
+
+        @media (max-width: 599px) {
+            .program {
+                cursor: pointer;
+                 flex-direction: column;
+            }
+        }
+
+        @media (min-width: 600px) {
+            .program {
+                display: flex;
+                align-items: flex-start;
+                flex-direction: row;
+
+            }
+        }
+
+        .program-image {
+             display: block; /* Hide images by default */
+        }
+
+        @media (max-width: 599px) {
+            .program-image {
+                display: none; /* Hide images by default on small screens */
+            }
+        }
+
+        @media (min-width: 600px) {
+            .program-image {
+                display: block;
+                width: 160px;
+                height: 90px;
+                margin-right: 20px;
+                object-fit: cover;
+                border-radius: 10px;
+                margin-bottom: 0;
+
+            }
+
+            body[lang="ar"] .program-image {
+                margin-left: 20px;
+                margin-right: 0;
+            }
+        }
+
+        .program-details {
+            flex-grow: 1;
+             direction: ltr;
+
+        }
+         /* Fixes the space between titles and sub titles */
+          .program-details > * {
+                margin-bottom: 5px;
+            }
+        body[lang="ar"] .program-details {
+           direction: rtl;
+        }
+
+        .program-title {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 600;
+            color: #2c3e50;
+            font-size: 1.1em;
+                margin-bottom: 2px;
+        }
+
+        body[lang="ar"] .program-title {
+           text-align: right;
+        }
+
+        .program-episode-title {
+            font-family: 'Raleway', sans-serif;
+            font-size: 0.9em;
+            color: #7f8c8d;
+            margin-bottom: 5px;
+        }
+
+          body[lang="ar"] .program-episode-title {
+           text-align: right;
+        }
+
+    .program-description {
+        font-family: 'Raleway', sans-serif;
+        color: #7f8c8d;
+        font-size: 0.9em;
+        margin-bottom: 5px;
+        line-height: 1.4;
+        display: none;
+
+    }
+
+        @media (max-width: 599px) {
+              .program-description {
+                    display: none;
+               }
+
+              .program.expanded .program-description {
+                         display: block;
+                }
+
+             body[lang="en"] .program.expanded .program-description.en,
+             body[lang="ar"] .program.expanded .program-description.arabic {
+                  display: block;
+                 }
+        }
+
+            /* Hide on other languages but english*/
+         body[lang="ar"] .program-description.en{
+            display:none;
+         }
+          body[lang="en"] .program-description.arabic{
+           display:none;
+         }
+
+           /* Always show in larger displays */
+        @media (min-width: 600px) {
+              .program-description {
+                      display: block;
+                }
+
+                 body[lang="ar"] .program-description.en {
+                        display: none; /*Always remove english*/
+                   }
+                     body[lang="en"]  .program-description.arabic {
+                          display: none;/*Always Remove Arabic*/
+                    }
+         }
+      .program-time-rating {
+                display: flex;
+                justify-content: flex-start; /* Align to the start */
+                align-items: center;
+                flex-wrap: wrap;
+                font-family: 'Montserrat', sans-serif;
+                font-size: 0.85em;
+                white-space: nowrap;
+               
+         }
+
+         body[lang="ar"] .program-time-rating {
+            direction: rtl;
+           }
+
+        .en{
+            display:block;
+        }
+         body[lang="ar"] .en{
+           display: none;
+         }
+
+        .arabic{
+           display:none;
+        }
+
+        body[lang="ar"] .arabic{
+            display:block;
+         }
+
+        /* New styles for Rating and Time */
+        .program-time-rating > div {
+            margin-bottom: 5px;
+             word-break: break-word;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .program-rating {
+            font-size: 0.9em;
+            color: #e74c3c; /* Example: Red color */
+            font-weight: bold; /* Example: bold font */
+        }
+
+        /* Mobile Styles */
+        @media (max-width: 599px) {
+            .program {
+                flex-direction: column;
+            }
+
+            .program-details {
+                text-align: left;
+            }
+
+            body[lang="ar"] .program-details {
+                text-align: right;
+            }
+            .program-description {
+               display: none;
+            }
+        }
+
+        .program-time {
+            margin-right: 10px; /* Add some space between the time and other elements */
+        }
+
+        body[lang="ar"] .program-time {
+            margin-left: 10px;
+            margin-right: 0;
+        }
+    </style>
+</head>
+<body lang="en">
+    <div class="header-container">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/9/97/DisneyChannelEMEA.svg" alt="Disney Channel EMEA Logo">
+        <div class="title en">Disney Channel (MENA)</div>
+        <div class="title arabic">قناة ديزني (الشرق الأوسط وشمال أفريقيا)</div>
+        <div class="subtitle en">TV Guide</div>
+        <div class="subtitle arabic">دليل التلفزيون</div>
+    </div>
+
+    <div class="selector-container">
+        <label for="datePicker" class="en">📅 Date:</label>
+        <label for="datePicker" class="arabic">📅 التاريخ:</label>
+        <input type="date" id="datePicker" onchange="showScheduleByDate(this.value)">
+
+        <label for="languageSelector" class="en">🌍 Language:</label>
+        <label for="languageSelector" class="arabic">🌍 اللغة:</label>
+        <select id="languageSelector" onchange="toggleLanguage(this.value)">
+            <option value="en">English</option>
+            <option value="ar">العربية</option>
+        </select>
+    </div>
+
+    <div class="buttons-container">
+        <button onclick="changeDate(-1)" class="en">⬅️ Previous Day</button>
+        <button onclick="changeDate(-1)" class="arabic">⬅️ اليوم السابق</button>
+        <button onclick="changeDate(1)" class="en">Next Day ➡️</button>
+        <button onclick="changeDate(1)" class="arabic">اليوم التالي ➡️</button>
+    </div>
+
+    <div style="margin-bottom: 10px;"></div> <!-- Added spacing -->
+
+
+    <div id="programs-container"></div>
+
+    <div class="source">Source: Jawwy.tv</div>
+
+    <script>
+
+        // Replace with your GitHub username and repository name
+        const GITHUB_USERNAME = 'Hannaplus4';  // Replace with your username
+        const GITHUB_REPO = 'disney-tv-guide'; // Replace with your repository name
+        const GITHUB_PATH = 'TV GUIDE MENA'; // Replace with your folder path, leave empty if files are in root
+		
+        function formatTimeForSaudiArabia(timestamp) {
+            const date = new Date(parseInt(timestamp));
+            const saudiTime = new Date(date.toLocaleString('en-US', { timeZone: 'Asia/Riyadh' }));
+            return saudiTime.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit', hour12: true});
+        }
+
+        function showScheduleByDate(date) {
+            const container = document.getElementById("programs-container");
+            container.innerHTML = "";
+
+            const jsonUrl = `https://raw.githubusercontent.com/${GITHUB_USERNAME}/${GITHUB_REPO}/main/${GITHUB_PATH ? GITHUB_PATH + '/' : ''}${date}.json`;
+
+            fetch(jsonUrl)
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error(`Failed to load schedule for ${date}. Status: ${response.status}`);
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    if (!data || !Array.isArray(data) || data.length === 0 || !data[0].listings) {
+                        container.innerHTML = "<p style='text-align:center; color:#d9534f;'>No programs available for this date.</p>";
+                        return;
+                    }
+
+                    const programs = data[0].listings;
+
+                    programs.forEach(program => {
+                        const programElement = document.createElement('div');
+                        programElement.className = 'program';
+
+                        if (window.innerWidth <= 599) {
+                            programElement.onclick = function() {
+                                this.classList.toggle('expanded');
+                            };
+                        }
+
+                        const simpleRating = program.ratings && program.ratings.find(rating => rating.scheme === "urn:simple");
+                        const ratingValue = simpleRating ? simpleRating.rating.toUpperCase() : 'N/A';
+
+                        let fullTitle = program.title;
+                        let programName = fullTitle;
+                        let episodeTitle = '';
+
+                        if (fullTitle.includes(':')) {
+                            const titleParts = fullTitle.split(':');
+                            programName = titleParts.slice(0, -1).join(':').trim();
+                            episodeTitle = titleParts[titleParts.length - 1].trim();
+                        }
+
+                        let localizedProgramName = program.localizedTitle ? program.localizedTitle.ar : '';
+                        let localizedEpisodeTitle = '';
+
+                        if (localizedProgramName && localizedProgramName.includes(':')) {
+                            const titleParts = localizedProgramName.split(':');
+                            localizedProgramName = titleParts.slice(0, -1).join(':').trim();
+                            localizedEpisodeTitle = titleParts[titleParts.length - 1].trim();
+                        }
+
+                        programElement.innerHTML = `
+                            <img src="${program.images && program.images.length > 0 ? program.images[0].imageUrl : 'placeholder.jpg'}" alt="${program.title}" class="program-image">
+                            <div class="program-details">
+                                <div class="program-title">
+                                    <span class="en">${programName}</span>
+                                    <span class="arabic">${localizedProgramName}</span>
+                                </div>
+                                ${episodeTitle ? `<div class="program-episode-title">
+                                    <span class="en">${episodeTitle}</span>
+                                    <span class="arabic">${localizedEpisodeTitle}</span>
+                                </div>` : ''}
+                                <div class="program-description en"> ${program.description}</div>
+                                <div class="program-description arabic"> ${program.localizedDescription ? program.localizedDescription.ar : ''}</div>
+                                 <div class="program-time-rating">
+                                    <div  class="program-time">Start: ${formatTimeForSaudiArabia(program.startTime)} | End: ${formatTimeForSaudiArabia(program.endTime)}</div>
+
+                                </div>
+                            </div>
+                        `;
+
+                        container.appendChild(programElement);
+                    });
+                })
+                .catch(error => {
+                    console.error("Error fetching or processing JSON:", error);
+                    container.innerHTML = `<p style='text-align:center; color:#d9534f;'>Failed to load schedule for ${date}.  Check the console for more details.</p>`;
+                });
+        }
+
+
+        function toggleLanguage(lang) {
+            document.body.setAttribute('lang', lang);
+            localStorage.setItem('preferredLanguage', lang);
+
+        }
+
+        function changeDate(days) {
+            const dateInput = document.getElementById("datePicker");
+            const currentDate = new Date(dateInput.value);
+            currentDate.setDate(currentDate.getDate() + days);
+            const newDate = currentDate.toISOString().split('T')[0];
+            dateInput.value = newDate;
+            showScheduleByDate(newDate);
+        }
+
+        document.addEventListener("DOMContentLoaded", function() {
+            const preferredLanguage = localStorage.getItem('preferredLanguage') || 'en';
+           document.body.setAttribute('lang', preferredLanguage);
+            document.getElementById('languageSelector').value = preferredLanguage;
+            toggleLanguage(preferredLanguage);
+
+            const today = new Date().toISOString().split('T')[0];
+            document.getElementById("datePicker").value = today;
+            showScheduleByDate(today);
+        });
+    </script>
+</body>
+</html>
