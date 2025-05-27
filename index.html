@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Disney Channel (MENA) - TV Guide</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="path/to/your/favicon.png" type="image/png"> <!-- CAMBIA ESTA RUTA -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Raleway:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #004aad;
+            --secondary-color: #009dff;
+            --accent-color: #ffcb05;
+            --text-color: #2c3e50;
+            --light-text-color: #7f8c8d;
+            --bg-color: #f4f7f6;
+            --card-bg-color: #ffffff;
+            --border-color: #e0e6ed;
+            --danger-color: #e74c3c;
+            --font-primary: 'Montserrat', sans-serif;
+            --font-secondary: 'Raleway', sans-serif;
+            --font-size-base: 16px;
+            --line-height-base: 1.6;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: var(--font-secondary);
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 15px;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            direction: ltr;
+            line-height: var(--line-height-base);
+        }
+
+        body[lang="ar"] {
+            direction: rtl;
+        }
+
+        .header-container {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            gap: 12px;
+            text-align: left;
+            padding: 12px 15px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            box-shadow: 0px 4px 12px rgba(0, 74, 173, 0.15);
+        }
+
+        body[lang="ar"] .header-container {
+            flex-direction: row-reverse;
+            text-align: right;
+            justify-content: flex-start;
+        }
+
+        .header-container img {
+            max-width: 50px;
+            max-height: 50px;
+            display: block;
+            margin: 0;
+            flex-shrink: 0;
+        }
+
+        .header-text-content {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .title {
+            font-family: var(--font-primary);
+            font-size: 1.1em;
+            font-weight: 600;
+            color: white;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            text-shadow: none;
+            line-height: 1.25;
+        }
+
+        .subtitle {
+            font-family: var(--font-primary);
+            font-size: 0.75em;
+            font-weight: 400;
+            color: #e0f2ff;
+            margin-top: 0px;
+            line-height: 1.25;
+        }
+
+        .controls-wrapper {
+            background-color: var(--card-bg-color);
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.07);
+            margin-bottom: 20px;
+        }
+
+        .carousel-date-selector-container {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            margin-bottom: 15px;
+        }
+
+        .carousel-nav-btn {
+            background-color: #ffffff;
+            border-radius: 50%;
+            border: 1px solid var(--border-color);
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+            width: 32px;
+            height: 32px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.4em;
+            color: var(--secondary-color);
+            cursor: pointer;
+            transition: color 0.2s ease, transform 0.2s ease;
+            flex-shrink: 0;
+        }
+        .carousel-nav-btn:hover {
+            color: var(--primary-color);
+            transform: scale(1.1);
+        }
+
+        .ltr-icon {
+            display: inline-block;
+            vertical-align: middle;
+            transition: transform 0.2s ease;
+        }
+        body[lang="ar"] .ltr-icon {
+            transform: scaleX(-1);
+        }
+
+        .days-carousel {
+            scroll-behavior: smooth;
+            display: flex;
+            justify-content: center;
+            gap: 6px;
+            overflow-x: auto;
+            flex-grow: 1;
+            min-width: 0;
+            padding: 4px 0;
+        }
+        .days-carousel::-webkit-scrollbar { display: none; }
+        .days-carousel {
+            -ms-overflow-style: none; scrollbar-width: none; }
+
+
+        .day-item {
+            padding: 6px 3px;
+            border: 1px solid var(--border-color);
+            border-radius: 6px;
+            cursor: pointer;
+            text-align: center;
+            font-family: var(--font-primary);
+            font-size: 0.65em;
+            min-width: 40px;
+            max-width: 60px;
+            min-height: 60px;
+            transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+            flex-basis: 13%;
+            flex-grow: 1;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            line-height: 1.2;
+            position: relative;
+        }
+        .day-item:hover {
+            background-color: #e9ecef;
+            border-color: var(--secondary-color);
+            transform: translateY(-2px);
+            box-shadow: 0 3px 8px rgba(0,0,0,0.08);
+        }
+        .day-item.active {
+            background-color: var(--secondary-color);
+            color: white;
+            border-color: var(--secondary-color);
+            font-weight: bold;
+            box-shadow: 0 2px 6px rgba(0, 157, 255, 0.3);
+            transform: translateY(-1px);
+        }
+
+        .day-name {
+            display: block;
+            font-size: 0.95em;
+            color: var(--light-text-color);
+            font-weight: 500;
+        }
+        .day-item.active .day-name {
+            color: rgba(255,255,255,0.9);
+            font-weight: 500;
+        }
+
+        .day-number {
+            display: block;
+            font-size: 1.7em;
+            font-weight: 700;
+            margin: 0;
+            position: relative;
+        }
+
+        .day-month {
+            display: block;
+            font-size: 0.9em;
+            color: var(--text-color);
+            font-weight: 500;
+        }
+        .day-item.active .day-month {
+            color: rgba(255,255,255,0.95);
+             font-weight: 500;
+        }
+
+        .day-item.today { /* Estilos base para hoy, incluso si no está activo */
+        }
+        .day-item.today.active { /* Estilos para hoy cuando está activo */
+        }
+
+        .day-item.weekend .day-name { color: var(--danger-color); }
+        .day-item.weekend.active .day-name { color: rgba(255,255,255,0.9); }
+
+
+        .language-selector-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 8px;
+            margin-top: 15px;
+            margin-bottom: 5px; /* Reducido para dar espacio a timezone-info */
+        }
+
+        body[lang="en"] .language-selector-container label.arabic,
+        body[lang="ar"] .language-selector-container label.en {
+            display: none;
+        }
+
+        .language-selector-container label {
+            font-family: var(--font-primary);
+            font-size: 0.9em;
+            font-weight: 600;
+            color: var(--text-color);
+        }
+
+        select#languageSelector {
+            appearance: none;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            background-color: var(--card-bg-color);
+            border: 1px solid var(--border-color);
+            border-radius: 20px;
+            padding: 8px 35px 8px 15px;
+            font-family: var(--font-primary);
+            font-size: 0.9em;
+            font-weight: 500;
+            color: var(--primary-color);
+            cursor: pointer;
+            min-width: 130px;
+            text-align: left;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.08);
+            transition: border-color 0.2s ease, box-shadow 0.2s ease;
+            background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23004aad%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E');
+            background-repeat: no-repeat;
+            background-position: right 12px center;
+            background-size: .65em auto;
+        }
+
+        select#languageSelector:hover {
+            border-color: var(--secondary-color);
+            box-shadow: 0 3px 6px rgba(0, 157, 255, 0.1);
+        }
+
+        select#languageSelector:focus {
+            border-color: var(--secondary-color);
+            box-shadow: 0 0 0 3px rgba(0, 157, 255, 0.25);
+            outline: none;
+        }
+
+        .timezone-info {
+            font-size: 0.75em;
+            color: var(--light-text-color);
+            text-align: center;
+            margin-top: 5px; /* Espacio después del selector de idioma */
+            margin-bottom: 10px; /* Espacio antes del siguiente elemento (loading/message) */
+            font-family: var(--font-secondary);
+        }
+        body[lang="en"] .timezone-info.arabic,
+        body[lang="ar"] .timezone-info.en {
+            display: none;
+        }
+
+
+        #loading-indicator, #message-area {
+            text-align: center; padding: 15px; font-family: var(--font-primary); font-size: 1em;
+            margin: 15px auto; border-radius: 8px; display: none;
+            display: flex; align-items: center; justify-content: center; gap: 8px;
+        }
+        .message-icon {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+        }
+        #loading-indicator { color: var(--secondary-color); }
+        #message-area.error { color: var(--danger-color); background-color: #fdecea; border: 1px solid var(--danger-color); }
+        #message-area.info { color: var(--primary-color); background-color: #e6f3ff; border: 1px solid var(--secondary-color); }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .program {
+            background: var(--card-bg-color); border-radius: 10px;
+            box-shadow: 0 3px 8px rgba(44, 62, 80, 0.07);
+            margin-bottom: 15px; padding: 12px; display: flex;
+            flex-direction: column; gap: 10px;
+            transition: transform 0.25s ease, box-shadow 0.25s ease;
+            opacity: 0; /* Inicia invisible para la animación */
+            animation: fadeIn 0.4s ease-out forwards;
+        }
+        /* Aplicar un delay escalonado si se desea, requeriría JS o :nth-child */
+        /* .program:nth-child(1) { animation-delay: 0.1s; } */
+        /* .program:nth-child(2) { animation-delay: 0.2s; } ... etc. */
+
+
+        .program:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 8px 20px rgba(44, 62, 80, 0.12);
+        }
+        .program-image { display: none; width: 100%; max-height: 200px; object-fit: cover; border-radius: 8px; }
+        .program-details { flex-grow: 1; display: flex; flex-direction: column; gap: 6px; }
+        body[lang="ar"] .program-details { text-align: right; }
+
+        .program-title { font-family: var(--font-primary); font-weight: 700; color: var(--primary-color); font-size: 1.1em; }
+        .program-episode-title { font-family: var(--font-secondary); font-size: 0.95em; color: var(--text-color); font-weight: 500; }
+        .program-description { font-family: var(--font-secondary); color: var(--light-text-color); font-size: 0.85em; line-height: 1.5; display: none; transition: max-height 0.3s ease-out, opacity 0.3s ease-out; max-height: 0; opacity: 0; overflow: hidden; }
+        .program-description.visible { display: block; max-height: 300px; opacity: 1; }
+        body[lang="ar"] .program-description.en, body[lang="en"] .program-description.arabic { display: none !important; max-height: 0 !important; opacity: 0 !important; }
+        body[lang="en"] .program-description.en.visible, body[lang="ar"] .program-description.arabic.visible { display: block !important; opacity: 1 !important; }
+        body[lang="en"] .program-description.en.visible { max-height: 300px !important; } body[lang="ar"] .program-description.arabic.visible { max-height: 300px !important; }
+
+        .description-toggle { font-family: var(--font-secondary); font-size: 0.85em; color: var(--secondary-color); cursor: pointer; font-weight: 600; display: none; text-decoration: none; padding: 4px 0; align-self: flex-start; }
+        body[lang="ar"] .description-toggle { align-self: flex-end; }
+        .description-toggle:hover { color: var(--primary-color); text-decoration: underline; }
+
+        .program-meta { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px; font-family: var(--font-primary); font-size: 0.8em; color: var(--light-text-color); border-top: 1px solid var(--border-color); padding-top: 10px; margin-top: 8px; }
+        .program-time { font-weight: 500; color: var(--text-color); }
+        .program-rating { font-size: 0.9em; color: var(--danger-color); font-weight: bold; padding: 3px 8px; background-color: #fdecea; border-radius: 15px; }
+
+        .source { text-align: center; font-size: 0.8em; color: #aaa; margin-top: 30px; padding-top: 15px; border-top: 1px solid var(--border-color); font-style: italic; }
+        .en { display: inline; } body[lang="ar"] .en { display: none; } .arabic { display: none; } body[lang="ar"] .arabic { display: inline; }
+
+        @media (min-width: 600px) {
+            body { padding: 20px; }
+            .header-container { padding: 15px 20px; gap: 15px; justify-content: center; }
+            body[lang="ar"] .header-container { justify-content: center; }
+            .header-container img { max-width: 60px; max-height: 60px;}
+            .title { font-size: 1.3em; }
+            .subtitle { font-size: 0.8em; }
+
+            .controls-wrapper { padding: 20px; margin-bottom: 25px; }
+
+            .carousel-date-selector-container { gap: 8px; }
+            .carousel-nav-btn { width: 38px; height: 38px; font-size: 1.8em; }
+            .days-carousel { gap: 8px; }
+            .day-item {
+                font-size: 0.7em; min-width: 55px; max-width: 70px; min-height: 70px;
+                padding: 8px 5px; line-height: 1.25; border-radius: 8px;
+            }
+            .day-name { font-size: 0.95em; }
+            .day-number { font-size: 1.8em; }
+            .day-month { font-size: 0.9em; }
+
+            .language-selector-container label { font-size: 0.9em; }
+            select#languageSelector { font-size: 0.9em; padding: 10px 40px 10px 18px; min-width: 160px; }
+
+
+            #loading-indicator, #message-area { padding: 20px; font-size: 1.1em; margin: 20px auto; }
+            .program { flex-direction: row; align-items: flex-start; padding: 15px; gap: 15px; }
+            .program-image { display: block; width: 180px; height: 101px; margin-right: 20px; flex-shrink: 0; }
+            body[lang="ar"] .program-image { margin-left: 20px; margin-right: 0; }
+            .program-title { font-size: 1.25em; }
+            .program-episode-title { font-size: 1em; }
+            .program-description { font-size: 0.9em; display: block; max-height: 500px !important; opacity: 1; }
+            .description-toggle { display: none !important; }
+            .program-meta { font-size: 0.85em; padding-top: 12px; margin-top: 10px; }
+            .program-rating { font-size: 0.9em; }
+            .source { font-size: 0.85em; margin-top: 40px; padding-top: 20px; }
+        }
+    </style>
+</head>
+<body lang="en">
+    <div class="header-container">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/3/3d/2022_Disney_Channel_logo.svg" alt="Disney Channel EMEA Logo">
+        <div class="header-text-content">
+            <div class="title en">Disney Channel (MENA)</div>
+            <div class="title arabic">قناة ديزني (الشرق الأوسط وشمال أفريقيا)</div>
+            <div class="subtitle en">TV Guide</div>
+            <div class="subtitle arabic">دليل التلفزيون</div>
+        </div>
+    </div>
+
+    <div class="controls-wrapper">
+        <div class="carousel-date-selector-container">
+            <button class="carousel-nav-btn prev" id="prevWeekBtn"
+                    aria-label="Previous week"
+                    data-arialabel-en="Previous week"
+                    data-arialabel-ar="الأسبوع السابق"
+                    onclick="changeWeek(-1)">
+                <svg class="ltr-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 20 20"><path d="M12.707 15.707a1 1 0 01-1.414 0L6.586 11a1 1 0 010-1.414l4.707-4.707a1 1 0 011.414 1.414L9.414 10l3.293 3.293a1 1 0 010 1.414z"/></svg>
+            </button>
+
+            <div class="days-carousel" id="days-carousel">
+                <!-- Days will be rendered here by JS -->
+            </div>
+            <button class="carousel-nav-btn next" id="nextWeekBtn"
+                    aria-label="Next week"
+                    data-arialabel-en="Next week"
+                    data-arialabel-ar="الأسبوع التالي"
+                    onclick="changeWeek(1)">
+                <svg class="ltr-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 20 20"><path d="M7.293 4.293a1 1 0 011.414 0L13.414 9a1 1 0 010 1.414l-4.707 4.707a1 1 0 01-1.414-1.414L10.586 10 7.293 6.707a1 1 0 010-1.414z"/></svg>
+            </button>
+        </div>
+        <div class="language-selector-container">
+            <label for="languageSelector" class="en">🌍 Language</label>
+            <label for="languageSelector" class="arabic">🌍 اللغة</label>
+            <select id="languageSelector" onchange="toggleLanguage(this.value)">
+                <option value="en">English</option>
+                <option value="ar">العربية</option>
+            </select>
+        </div>
+        <div class="timezone-info">
+            <span class="en">All times shown are in KSA (UTC+3) timezone.</span>
+            <span class="arabic">جميع الأوقات المعروضة حسب توقيت المملكة العربية السعودية (UTC+3).</span>
+        </div>
+    </div>
+
+    <div id="loading-indicator" aria-live="polite">
+        <span class="message-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid" width="24" height="24" style="shape-rendering: auto; display: block; background: transparent;" xmlns:xlink="http://www.w3.org/1999/xlink"><g><circle stroke-dasharray="164.93361431346415 56.97787143782138" r="35" stroke-width="10" stroke="#009dff" fill="none" cy="50" cx="50">
+  <animateTransform keyTimes="0;1" values="0 50 50;360 50 50" dur="1s" repeatCount="indefinite" type="rotate" attributeName="transform"></animateTransform>
+</circle><g></g></g><!--  --></svg>
+        </span>
+        <span class="en">Loading schedule...</span>
+        <span class="arabic">جاري تحميل الجدول...</span>
+    </div>
+    <div id="message-area" aria-live="polite">
+        <!-- Icono y texto se añadirán por JS -->
+    </div>
+    <div id="programs-container"></div>
+
+    <div class="source">Source: Jawwy.tv</div>
+
+<script>
+    // ==============================================================================
+    // GitHub Configuration
+    // ==============================================================================
+    const GITHUB_USERNAME = 'Hannaplus4';
+    const GITHUB_REPO = 'disney-tv-guide';
+    const GITHUB_PATH = 'TV GUIDE MENA';
+    // ==============================================================================
+    const PLACEHOLDER_IMAGE_URL = 'https://via.placeholder.com/180x101.png?text=Disney+Channel';
+
+    // DOM Elements
+    const loadingIndicator = document.getElementById("loading-indicator");
+    const messageArea = document.getElementById("message-area");
+    const programsContainer = document.getElementById("programs-container");
+    const languageSelector = document.getElementById("languageSelector");
+    const daysCarouselElement = document.getElementById("days-carousel");
+    const prevWeekBtn = document.getElementById("prevWeekBtn");
+    const nextWeekBtn = document.getElementById("nextWeekBtn");
+
+    // State Variables
+    let currentDisplayDate = new Date();
+    let selectedDateISO = "";
+
+    // Utility Functions
+    function toISODateString(date) {
+        return date.getFullYear() + '-' + ('0' + (date.getMonth() + 1)).slice(-2) + '-' + ('0' + date.getDate()).slice(-2);
+    }
+
+    function getMonday(d) {
+        d = new Date(d);
+        let day = d.getDay();
+        let diff = d.getDate() - day + (day === 0 ? -6 : 1);
+        return new Date(d.setDate(diff));
+    }
+
+    function formatTimeForSaudiArabia(dateString) {
+        const date = new Date(dateString);
+        const options = {
+            hour: 'numeric',
+            minute: 'numeric',
+            hour12: true,
+            timeZone: 'Asia/Riyadh' // KSA Timezone UTC+3
+        };
+        let languageCode = document.body.lang === 'ar' ? 'ar-SA' : 'en-US';
+        try {
+            return new Intl.DateTimeFormat(languageCode, options).format(date);
+        } catch (e) {
+            console.warn("Could not format date using Intl.DateTimeFormat. Falling back. Error:", e);
+            let hours = date.getHours(); // May not be correct if original dateString is not UTC
+            let minutes = date.getMinutes();
+            const ampm = hours >= 12 ? (languageCode === 'ar-SA' ? 'م' : 'PM') : (languageCode === 'ar-SA' ? 'ص' : 'AM');
+            hours = hours % 12;
+            hours = hours ? hours : 12;
+            minutes = minutes < 10 ? '0'+minutes : minutes;
+            return hours + ':' + minutes + ' ' + ampm;
+        }
+    }
+
+    // UI Rendering Functions
+    function renderDayCarousel() {
+        const todayISO = toISODateString(new Date());
+        daysCarouselElement.innerHTML = "";
+        const mondayOfDisplayedWeek = getMonday(new Date(currentDisplayDate));
+        const currentBodyLang = document.body.lang || 'en';
+
+        for (let i = 0; i < 7; i++) {
+            const dayDate = new Date(mondayOfDisplayedWeek);
+            dayDate.setDate(mondayOfDisplayedWeek.getDate() + i);
+            const dayISO = toISODateString(dayDate);
+            const dayItem = document.createElement('div');
+            dayItem.className = 'day-item';
+            const dayNameLong = dayDate.toLocaleDateString(currentBodyLang, { weekday: 'long' });
+            const monthNameLong = dayDate.toLocaleDateString(currentBodyLang, { month: 'long' });
+            const dayNumberVal = dayDate.getDate();
+            let ariaLabel = `${dayNameLong}, ${dayNumberVal} ${currentBodyLang === 'ar' ? 'من' : 'of'} ${monthNameLong}`;
+            if (currentBodyLang === 'ar') {
+                 ariaLabel = `${dayNameLong}، ${dayNumberVal} ${monthNameLong}`;
+            }
+            dayItem.setAttribute('aria-label', ariaLabel);
+            dayItem.setAttribute('role', 'button');
+            dayItem.setAttribute('tabindex', '0');
+            if (dayISO === selectedDateISO) dayItem.classList.add('active');
+            if (dayISO === todayISO) dayItem.classList.add('today');
+            const dayOfWeekNumber = dayDate.getDay();
+            if (dayOfWeekNumber === 0 || dayOfWeekNumber === 6) dayItem.classList.add('weekend');
+            dayItem.dataset.date = dayISO;
+            const dayNameSpan = document.createElement('span');
+            dayNameSpan.className = 'day-name';
+            dayNameSpan.textContent = dayDate.toLocaleDateString(currentBodyLang, { weekday: 'short' });
+            const dayNumberSpan = document.createElement('span');
+            dayNumberSpan.className = 'day-number';
+            dayNumberSpan.textContent = dayNumberVal;
+            const dayMonthSpan = document.createElement('span');
+            dayMonthSpan.className = 'day-month';
+            dayMonthSpan.textContent = dayDate.toLocaleDateString(currentBodyLang, { month: 'short' });
+            dayItem.appendChild(dayNameSpan);
+            dayItem.appendChild(dayNumberSpan);
+            dayItem.appendChild(dayMonthSpan);
+            dayItem.addEventListener('click', () => handleDayClick(dayISO));
+            dayItem.addEventListener('keydown', (e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); handleDayClick(dayISO); } });
+            daysCarouselElement.appendChild(dayItem);
+        }
+        const activeEl = daysCarouselElement.querySelector('.day-item.active');
+        if (activeEl) { setTimeout(() => { activeEl.scrollIntoView({ inline: 'center', block: 'nearest', behavior: 'smooth' }); }, 50); }
+        updateAriaLabelsForNavButtons();
+    }
+
+    function handleDayClick(dateISO) {
+        if (dateISO !== selectedDateISO) {
+            window.location.search = `?date=${dateISO}`;
+        }
+    }
+
+    function changeWeek(offset) {
+        const currentMonday = getMonday(new Date(currentDisplayDate));
+        const newTargetMonday = new Date(currentMonday);
+        newTargetMonday.setDate(currentMonday.getDate() + (offset * 7));
+        window.location.search = `?date=${toISODateString(newTargetMonday)}`;
+    }
+
+    const svgErrorIcon = `<svg class="message-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z"></path></svg>`;
+    const svgInfoIcon = `<svg class="message-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"></path></svg>`;
+
+    function showMessage(text, type = 'info') {
+        messageArea.innerHTML = `${type === 'error' ? svgErrorIcon : svgInfoIcon}<span>${text}</span>`;
+        messageArea.className = type;
+        messageArea.style.display = 'flex';
+        programsContainer.innerHTML = "";
+    }
+
+    function showScheduleByDate(dateISO) {
+        programsContainer.innerHTML = ""; // Clear previous programs for animation
+        messageArea.style.display = "none";
+        loadingIndicator.style.display = "flex";
+        const jsonUrl = `https://raw.githubusercontent.com/${GITHUB_USERNAME}/${GITHUB_REPO}/main/${GITHUB_PATH ? GITHUB_PATH + '/' : ''}${dateISO}.json`;
+        console.log("Fetching JSON from:", jsonUrl);
+
+        fetch(jsonUrl)
+            .then(response => {
+                if (!response.ok) {
+                    console.error(`Network response error: ${response.status} ${response.statusText} for URL: ${jsonUrl}`);
+                    throw new Error(`Network response: ${response.status}`);
+                }
+                return response.json();
+            })
+            .then(data => {
+                loadingIndicator.style.display = "none";
+                if (!data || !Array.isArray(data) || data.length === 0 || !data[0].listings || data[0].listings.length === 0) {
+                    const noProgramsMsgEn = "No programs available for this date.";
+                    const noProgramsMsgAr = "لا توجد برامج متاحة لهذا التاريخ.";
+                    showMessage(document.body.lang === 'ar' ? noProgramsMsgAr : noProgramsMsgEn, 'info');
+                    return;
+                }
+                const programs = data[0].listings;
+                programs.forEach((program, index) => { // Added index for potential staggered animation
+                    const programElement = document.createElement('div'); programElement.className = 'program';
+                    // programElement.style.animationDelay = `${index * 0.05}s`; // Optional: Staggered animation
+                    const simpleRating = program.ratings?.find(r => r.scheme === "urn:simple"); const ratingValue = simpleRating ? simpleRating.rating.toUpperCase() : '';
+                    let fullTitle = program.title, programNameEn = fullTitle, episodeTitleEn = '';
+                    if (fullTitle.includes(':')) { const p = fullTitle.split(':'); programNameEn = p.slice(0, -1).join(':').trim(); episodeTitleEn = p[p.length - 1].trim(); }
+                    let programNameAr = program.localizedTitle?.ar || programNameEn, episodeTitleAr = '';
+                    if (program.localizedTitle?.ar?.includes(':')) { const p = program.localizedTitle.ar.split(':'); programNameAr = p.slice(0, -1).join(':').trim(); episodeTitleAr = p[p.length - 1].trim(); }
+                    else if (episodeTitleEn && program.localizedTitle?.ar) { episodeTitleAr = episodeTitleEn; }
+                    else if (!program.localizedTitle?.ar && episodeTitleEn) { programNameAr = programNameEn;}
+                    const hasEnDesc = program.description?.trim() !== ""; const hasArDesc = program.localizedDescription?.ar?.trim() !== "";
+                    const imgUrl = program.images?.[0]?.imageUrl;
+                    programElement.innerHTML = `<img src="${imgUrl||PLACEHOLDER_IMAGE_URL}" alt="" class="program-image" loading="lazy" ${imgUrl?'':'style="object-fit:scale-down;"'}><div class="program-details"><div class="program-title"><span class="en">${programNameEn}</span><span class="arabic">${programNameAr}</span></div>${(episodeTitleEn||episodeTitleAr)?`<div class="program-episode-title"><span class="en">${episodeTitleEn}</span><span class="arabic">${episodeTitleAr||episodeTitleEn}</span></div>`:''} ${hasEnDesc?`<div class="program-description en">${program.description}</div>`:''} ${hasArDesc?`<div class="program-description arabic">${program.localizedDescription.ar}</div>`:''} ${(hasEnDesc||hasArDesc)?`<a href="#" class="description-toggle"><span class="en">Read more</span><span class="arabic">اقرأ المزيد</span></a>`:''} <div class="program-meta"><div class="program-time"><span class="en">Time:</span><span class="arabic">الوقت:</span> ${formatTimeForSaudiArabia(program.startTime)} - ${formatTimeForSaudiArabia(program.endTime)}</div> ${ratingValue?`<div class="program-rating">${ratingValue}</div>`:''}</div></div>`;
+                    programsContainer.appendChild(programElement);
+                    setupDescriptionToggle(programElement);
+                });
+                updateDescriptionStates();
+            })
+            .catch(error => {
+                console.error("Error fetching or parsing JSON:", error);
+                loadingIndicator.style.display = "none";
+                const errEn = `Failed to load schedule for ${dateISO}. Please check the console for more details or if the file exists.`;
+                const errAr = `فشل تحميل جدول البرامج للتاريخ ${dateISO}. يرجى مراجعة وحدة التحكم أو التحقق من وجود الملف.`;
+                showMessage(document.body.lang === 'ar' ? errAr : errEn, 'error');
+            });
+    }
+
+    function setupDescriptionToggle(el) { const t=el.querySelector('.description-toggle'), dE=el.querySelector('.program-description.en'), dA=el.querySelector('.program-description.arabic'); if(t){t.addEventListener('click',e=>{e.preventDefault();const cL=document.body.lang,aD=(cL==='ar'&&dA)?dA:dE;if(aD){const iV=aD.classList.toggle('visible');t.querySelector('.en').textContent=iV?'Read less':'Read more';t.querySelector('.arabic').textContent=iV?'اقرأ أقل':'اقرأ المزيد';}});}}
+    function updateDescriptionStates() { const iD=window.innerWidth>=600;document.querySelectorAll('.program').forEach(pE=>{const t=pE.querySelector('.description-toggle'),dE=pE.querySelector('.program-description.en'),dA=pE.querySelector('.program-description.arabic'),cL=document.body.lang;if(dE)dE.classList.remove('visible');if(dA)dA.classList.remove('visible');const aD=(cL==='ar'&&dA&&dA.textContent.trim()!=="")?dA:dE,hAD=aD&&aD.textContent.trim()!=="";if(t){t.style.display=(iD||!hAD)?'none':'inline-block';}if(iD&&hAD){if(aD) aD.classList.add('visible');}else if(!iD&&t&&hAD){t.querySelector('.en').textContent='Read more';t.querySelector('.arabic').textContent='اقرأ المزيد';}}); }
+
+    function updateAriaLabelsForNavButtons() {
+        const currentBodyLang = document.body.lang || 'en';
+        if (prevWeekBtn) prevWeekBtn.setAttribute('aria-label', prevWeekBtn.dataset[`arialabel-${currentBodyLang}`] || 'Previous week');
+        if (nextWeekBtn) nextWeekBtn.setAttribute('aria-label', nextWeekBtn.dataset[`arialabel-${currentBodyLang}`] || 'Next week');
+    }
+
+    function toggleLanguage(lang) {
+        document.body.lang = lang;
+        localStorage.setItem('preferredLanguage', lang);
+        if (messageArea.style.display === 'flex' && messageArea.classList.contains('info')) {
+            const noProgramsMsgEn = "No programs available for this date."; const noProgramsMsgAr = "لا توجد برامج متاحة لهذا التاريخ.";
+            showMessage(lang === 'ar' ? noProgramsMsgAr : noProgramsMsgEn, 'info');
+        } else if (messageArea.style.display === 'flex' && messageArea.classList.contains('error')) {
+            const errEn = `Failed to load schedule. Check console.`; const errAr = `فشل تحميل جدول البرامج. راجع وحدة التحكم.`;
+            showMessage(lang === 'ar' ? errAr : errEn, 'error');
+        }
+        renderDayCarousel();
+        updateDescriptionStates();
+        updateAriaLabelsForNavButtons();
+    }
+
+    function getQueryParam(param) { const uP = new URLSearchParams(window.location.search); return uP.get(param); }
+
+    // Initialization
+    document.addEventListener("DOMContentLoaded", function () {
+        let paramDateStr = getQueryParam('date');
+        if (paramDateStr && !/^\d{4}-\d{2}-\d{2}$/.test(paramDateStr)) {
+            paramDateStr = null;
+        }
+        if (paramDateStr) {
+            selectedDateISO = paramDateStr;
+            const parts = paramDateStr.split('-');
+            currentDisplayDate = new Date(parseInt(parts[0]), parseInt(parts[1]) - 1, parseInt(parts[2]), 12, 0, 0);
+        } else {
+            currentDisplayDate = new Date(); // Use current date for today
+            currentDisplayDate.setHours(12,0,0,0); // Normalize time for consistency
+            selectedDateISO = toISODateString(currentDisplayDate);
+            history.replaceState(null, '', `${window.location.pathname}?date=${selectedDateISO}`);
+        }
+        const preferredLanguage = localStorage.getItem('preferredLanguage') || 'en';
+        document.body.lang = preferredLanguage;
+        languageSelector.value = preferredLanguage;
+        renderDayCarousel();
+        showScheduleByDate(selectedDateISO);
+        updateAriaLabelsForNavButtons();
+        window.addEventListener('resize', updateDescriptionStates);
+    });
+</script>
+</body>
+</html>
