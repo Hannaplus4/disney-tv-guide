@@ -1,12 +1,3 @@
-¡Entendido! He procesado tu solicitud.
-
-El siguiente bloque de código JSON es el resultado de actualizar el archivo original. Se ha mantenido la estructura y toda la información detallada (descripciones, imágenes, IDs, etc.) para los programas que ya existían en el archivo original, y se han actualizado sus títulos y horarios según el archivo de texto.
-
-Para los programas que son completamente nuevos en el listado (como `Jessie`, `Raven's Home`, etc.) y de los cuales no había datos previos, he creado nuevas entradas manteniendo el formato, pero solo con la información disponible en el archivo de texto (título, tipo de programa y horario).
-
-Aquí está el contenido actualizado para el archivo `2025-06-14.json`:
-
-```json
 [
     {
         "channelId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/Channel/92533800148",
@@ -2030,4 +2021,3 @@ Aquí está el contenido actualizado para el archivo `2025-06-14.json`:
         ]
     }
 ]
-```
