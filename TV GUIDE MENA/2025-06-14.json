@@ -1,0 +1,2095 @@
+[
+    {
+        "channelId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/Channel/92533800148",
+        "listings": [
+            {
+                "listingId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/Listing/682872360107",
+                "paId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/ProgramAvailability/587756072197",
+                "title": "Gravity Falls - The Hand That Rocks The Mabel",
+                "description": "When twins Dipper and Mabel are shipped off by their parents to their Great Uncle Stan's home in Gravity Falls for the summer, they realize something rather strange is going on in the town.",
+                "localizedTitle": {
+                    "ar": "غرافيتي فولز:ذا هاند ذات روكس ذا مابيل"
+                },
+                "localizedDescription": {
+                    "ar": "يقوم والدي ديبر وماربل بإرسالهما إلى منزل العم ستان في شلالات غرافيتي لموسم الصيف، يدركان هناك أن شيئاً غريباً على وشك الحدوث في البلدة."
+                },
+                "startTime": 1749934200000,
+                "endTime": 1749935700000,
+                "images": [
+                    {
+                        "imageUrl": "http://s3-eu-west-1.amazonaws.com/rockettv.media.images/poster_streaming/EPG131725_landscape10_MASTER289110.jpg",
+                        "width": 3000,
+                        "height": 1688
+                    }
+                ],
+                "seasonNumber": 1,
+                "programType": "kids",
+                "listingGuid": "INT-INTIGRAL-LISTING-af395a36a",
+                "ratings": [
+                    {
+                        "scheme": "urn:www.citc.gov.sa",
+                        "rating": "family",
+                        "subRatings": []
+                    },
+                    {
+                        "scheme": "urn:simple",
+                        "rating": "g",
+                        "subRatings": []
+                    }
+                ]
+            },
+            {
+                "listingId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/Listing/682871336420",
+                "paId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/ProgramAvailability/587745832251",
+                "title": "Gravity Falls - Tourist Trapped",
+                "description": "When twins Dipper and Mabel are shipped off by their parents to their Great Uncle Stan's home in Gravity Falls for the summer, they realize something rather strange is going on in the town.",
+                "localizedTitle": {
+                    "ar": "غرافيتي فولز:توريست ترابد"
+                },
+                "localizedDescription": {
+                    "ar": "يقوم والدي ديبر وماربل بإرسالهما إلى منزل العم ستان في شلالات غرافيتي لموسم الصيف، يدركان هناك أن شيئاً غريباً على وشك الحدوث في البلدة."
+                },
+                "startTime": 1749935700000,
+                "endTime": 1749936900000,
+                "images": [
+                    {
+                        "imageUrl": "http://s3-eu-west-1.amazonaws.com/rockettv.media.images/poster_streaming/EPG131725_landscape10_MASTER289110.jpg",
+                        "width": 3000,
+                        "height": 1688
+                    }
+                ],
+                "seasonNumber": 1,
+                "programType": "kids",
+                "listingGuid": "INT-INTIGRAL-LISTING-9cc8f6be8",
+                "ratings": [
+                    {
+                        "scheme": "urn:www.citc.gov.sa",
+                        "rating": "family",
+                        "subRatings": []
+                    },
+                    {
+                        "scheme": "urn:simple",
+                        "rating": "g",
+                        "subRatings": []
+                    }
+                ]
+            },
+            {
+                "listingId": null,
+                "paId": null,
+                "title": "Amphibia - Wax Museum/ Swamp And Sensibility",
+                "description": "",
+                "localizedTitle": {
+                    "ar": ""
+                },
+                "localizedDescription": {
+                    "ar": ""
+                },
+                "startTime": 1749936900000,
+                "endTime": 1749938400000,
+                "images": [],
+                "seasonNumber": null,
+                "programType": "kids",
+                "listingGuid": null,
+                "ratings": []
+            },
+            {
+                "listingId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/Listing/682872360113",
+                "paId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/ProgramAvailability/588407336232",
+                "title": "Amphibia - Marcy at the Gates",
+                "description": "Ordinary Anne Boonchuy, 13, finds a treasure chest that sends her to Amphibia, a world full of frogs, toads, and giant insects. With help from young frog Sprig, she adapts to life in Amphibia and discovers the true meaning of friendship.",
+                "localizedTitle": {
+                    "ar": "آمفيبيا:مارسي آت ذا غيت"
+                },
+                "localizedDescription": {
+                    "ar": "تعثر آني بونشوي البالغة من العمر 13 عاماً على صندوق كنز يأخذها إلى عالَم أمفيبيا، مكان مليء بالضفادع والحشرات العملاقة. بمساعدة من سبرينغ تحاول آني التأقلم مع المكان وتشكل علاقة صداقة حقيقية!"
+                },
+                "startTime": 1749938400000,
+                "endTime": 1749939600000,
+                "images": [
+                    {
+                        "imageUrl": "http://s3-eu-west-1.amazonaws.com/rockettv.media.images/poster_streaming/S0009238_landscape10_MASTER1169573.jpg",
+                        "width": 3840,
+                        "height": 2160
+                    }
+                ],
+                "seasonNumber": 2,
+                "programType": "kids",
+                "listingGuid": "INT-INTIGRAL-LISTING-1d5b95194",
+                "ratings": [
+                    {
+                        "scheme": "urn:www.citc.gov.sa",
+                        "rating": "family",
+                        "subRatings": []
+                    },
+                    {
+                        "scheme": "urn:simple",
+                        "rating": "g",
+                        "subRatings": []
+                    }
+                ]
+            },
+            {
+                "listingId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/Listing/682872360114",
+                "paId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/ProgramAvailability/545439784356",
+                "title": "Big City Greens - Garage Tales/ Animal Farm",
+                "description": "Ten-year-old country boy Cricket Green is moving to the big city! Along with his older sister Tilly, father Bill and wild Gramma Alice, this small family can find big adventures no matter where they are!",
+                "localizedTitle": {
+                    "ar": "بيغ سيتي غرينز:غارادج تيلز / أنيمال فارم"
+                },
+                "localizedDescription": {
+                    "ar": "تابعوا المغامرات الغريبة للصبي الريفي المتفائل اللعوب (كريكيت غرين) ذو الأعوام العشرة، وأخته الكبرى تيلي ووالدهما بيل والجدّة آليس، فمع فضول كريكيت الفطري وحماسه الزائد يقودانه ومعه عائلته إلى رحلات ومغامرات لا تُنسى."
+                },
+                "startTime": 1749939600000,
+                "endTime": 1749940800000,
+                "images": [
+                    {
+                        "imageUrl": "http://s3-eu-west-1.amazonaws.com/rockettv.media.images/landscape_streaming/S0010820004089.jpg",
+                        "width": 1920,
+                        "height": 1080
+                    }
+                ],
+                "seasonNumber": 1,
+                "programType": "kids",
+                "listingGuid": "INT-INTIGRAL-LISTING-e4d6b834e",
+                "ratings": [
+                    {
+                        "scheme": "urn:www.citc.gov.sa",
+                        "rating": "family",
+                        "subRatings": []
+                    },
+                    {
+                        "scheme": "urn:simple",
+                        "rating": "g",
+                        "subRatings": []
+                    }
+                ]
+            },
+            {
+                "listingId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/Listing/682872360108",
+                "paId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/ProgramAvailability/545440808205",
+                "title": "Big City Greens - Desserted/ Gifted, The",
+                "description": "Ten-year-old country boy Cricket Green is moving to the big city! Along with his older sister Tilly, father Bill and wild Gramma Alice, this small family can find big adventures no matter where they are!",
+                "localizedTitle": {
+                    "ar": "بيغ سيتي غرينز:ديزيرتد / ذا غيفتيد"
+                },
+                "localizedDescription": {
+                    "ar": "تابعوا المغامرات الغريبة للصبي الريفي المتفائل اللعوب (كريكيت غرين) ذو الأعوام العشرة، وأخته الكبرى تيلي ووالدهما بيل والجدّة آليس، فمع فضول كريكيت الفطري وحماسه الزائد يقودانه ومعه عائلته إلى رحلات ومغامرات لا تُنسى."
+                },
+                "startTime": 1749940800000,
+                "endTime": 1749942300000,
+                "images": [
+                    {
+                        "imageUrl": "http://s3-eu-west-1.amazonaws.com/rockettv.media.images/landscape_streaming/S0010820004089.jpg",
+                        "width": 1920,
+                        "height": 1080
+                    }
+                ],
+                "seasonNumber": 1,
+                "programType": "kids",
+                "listingGuid": "INT-INTIGRAL-LISTING-6b31dcbf3",
+                "ratings": [
+                    {
+                        "scheme": "urn:www.citc.gov.sa",
+                        "rating": "family",
+                        "subRatings": []
+                    },
+                    {
+                        "scheme": "urn:simple",
+                        "rating": "g",
+                        "subRatings": []
+                    }
+                ]
+            },
+            {
+                "listingId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/Listing/682869800242",
+                "paId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/ProgramAvailability/545542184121",
+                "title": "Big City Greens - Time Crisis/ Gramma Driver",
+                "description": "Ten-year-old country boy Cricket Green is moving to the big city! Along with his older sister Tilly, father Bill and wild Gramma Alice, this small family can find big adventures no matter where they are!",
+                "localizedTitle": {
+                    "ar": "بيغ سيتي غرينز:تايم كرايسيس/ غرامّا درايڤر"
+                },
+                "localizedDescription": {
+                    "ar": "تابعوا المغامرات الغريبة للصبي الريفي المتفائل اللعوب (كريكيت غرين) ذو الأعوام العشرة، وأخته الكبرى تيلي ووالدهما بيل والجدّة آليس، فمع فضول كريكيت الفطري وحماسه الزائد يقودانه ومعه عائلته إلى رحلات ومغامرات لا تُنسى."
+                },
+                "startTime": 1749942300000,
+                "endTime": 1749943500000,
+                "images": [
+                    {
+                        "imageUrl": "http://s3-eu-west-1.amazonaws.com/rockettv.media.images/landscape_streaming/S0010820004089.jpg",
+                        "width": 1920,
+                        "height": 1080
+                    }
+                ],
+                "seasonNumber": 1,
+                "programType": "kids",
+                "listingGuid": "INT-INTIGRAL-LISTING-298aeda89",
+                "ratings": [
+                    {
+                        "scheme": "urn:www.citc.gov.sa",
+                        "rating": "family",
+                        "subRatings": []
+                    },
+                    {
+                        "scheme": "urn:simple",
+                        "rating": "g",
+                        "subRatings": []
+                    }
+                ]
+            },
+            {
+                "listingId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/Listing/682872360107",
+                "paId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/ProgramAvailability/587756072197",
+                "title": "Gravity Falls - The Hand That Rocks The Mabel",
+                "description": "When twins Dipper and Mabel are shipped off by their parents to their Great Uncle Stan's home in Gravity Falls for the summer, they realize something rather strange is going on in the town.",
+                "localizedTitle": {
+                    "ar": "غرافيتي فولز:ذا هاند ذات روكس ذا مابيل"
+                },
+                "localizedDescription": {
+                    "ar": "يقوم والدي ديبر وماربل بإرسالهما إلى منزل العم ستان في شلالات غرافيتي لموسم الصيف، يدركان هناك أن شيئاً غريباً على وشك الحدوث في البلدة."
+                },
+                "startTime": 1749943500000,
+                "endTime": 1749945000000,
+                "images": [
+                    {
+                        "imageUrl": "http://s3-eu-west-1.amazonaws.com/rockettv.media.images/poster_streaming/EPG131725_landscape10_MASTER289110.jpg",
+                        "width": 3000,
+                        "height": 1688
+                    }
+                ],
+                "seasonNumber": 1,
+                "programType": "kids",
+                "listingGuid": "INT-INTIGRAL-LISTING-af395a36a",
+                "ratings": [
+                    {
+                        "scheme": "urn:www.citc.gov.sa",
+                        "rating": "family",
+                        "subRatings": []
+                    },
+                    {
+                        "scheme": "urn:simple",
+                        "rating": "g",
+                        "subRatings": []
+                    }
+                ]
+            },
+            {
+                "listingId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/Listing/682871336420",
+                "paId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/ProgramAvailability/587745832251",
+                "title": "Gravity Falls - Tourist Trapped",
+                "description": "When twins Dipper and Mabel are shipped off by their parents to their Great Uncle Stan's home in Gravity Falls for the summer, they realize something rather strange is going on in the town.",
+                "localizedTitle": {
+                    "ar": "غرافيتي فولز:توريست ترابد"
+                },
+                "localizedDescription": {
+                    "ar": "يقوم والدي ديبر وماربل بإرسالهما إلى منزل العم ستان في شلالات غرافيتي لموسم الصيف، يدركان هناك أن شيئاً غريباً على وشك الحدوث في البلدة."
+                },
+                "startTime": 1749945000000,
+                "endTime": 1749946200000,
+                "images": [
+                    {
+                        "imageUrl": "http://s3-eu-west-1.amazonaws.com/rockettv.media.images/poster_streaming/EPG131725_landscape10_MASTER289110.jpg",
+                        "width": 3000,
+                        "height": 1688
+                    }
+                ],
+                "seasonNumber": 1,
+                "programType": "kids",
+                "listingGuid": "INT-INTIGRAL-LISTING-9cc8f6be8",
+                "ratings": [
+                    {
+                        "scheme": "urn:www.citc.gov.sa",
+                        "rating": "family",
+                        "subRatings": []
+                    },
+                    {
+                        "scheme": "urn:simple",
+                        "rating": "g",
+                        "subRatings": []
+                    }
+                ]
+            },
+            {
+                "listingId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/Listing/682869800243",
+                "paId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/ProgramAvailability/591018536240",
+                "title": "Amphibia - Spider",
+                "description": "Ordinary Anne Boonchuy, 13, finds a treasure chest that sends her to Amphibia, a world full of frogs, toads, and giant insects. With help from young frog Sprig, she adapts to life in Amphibia and discovers the true meaning of friendship.",
+                "localizedTitle": {
+                    "ar": "آمفيبيا:سبايدر - سبريغ / أوليفيا آند يونان"
+                },
+                "localizedDescription": {
+                    "ar": "تعثر آني بونشوي البالغة من العمر 13 عاماً على صندوق كنز يأخذها إلى عالَم أمفيبيا، مكان مليء بالضفادع والحشرات العملاقة. بمساعدة من سبرينغ تحاول آني التأقلم مع المكان وتشكل علاقة صداقة حقيقية!"
+                },
+                "startTime": 1749946200000,
+                "endTime": 1749947700000,
+                "images": [
+                    {
+                        "imageUrl": "http://s3-eu-west-1.amazonaws.com/rockettv.media.images/poster_streaming/S0009238_landscape10_MASTER1169573.jpg",
+                        "width": 3840,
+                        "height": 2160
+                    }
+                ],
+                "seasonNumber": 1,
+                "programType": "kids",
+                "listingGuid": "INT-INTIGRAL-LISTING-05bf7ca23",
+                "ratings": [
+                    {
+                        "scheme": "urn:www.citc.gov.sa",
+                        "rating": "family",
+                        "subRatings": []
+                    },
+                    {
+                        "scheme": "urn:simple",
+                        "rating": "g",
+                        "subRatings": []
+                    }
+                ]
+            },
+            {
+                "listingId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/Listing/682871336421",
+                "paId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/ProgramAvailability/609013800040",
+                "title": "Amphibia - Froggy Little Christmas",
+                "description": "Ordinary Anne Boonchuy, 13, finds a treasure chest that sends her to Amphibia, a world full of frogs, toads, and giant insects. With help from young frog Sprig, she adapts to life in Amphibia and discovers the true meaning of friendship.",
+                "localizedTitle": {
+                    "ar": "آمفيبيا:فروغي ليتل كريسماس"
+                },
+                "localizedDescription": {
+                    "ar": "تعثر آني بونشوي البالغة من العمر 13 عاماً على صندوق كنز يأخذها إلى عالَم أمفيبيا، مكان مليء بالضفادع والحشرات العملاقة. بمساعدة من سبرينغ تحاول آني التأقلم مع المكان وتشكل علاقة صداقة حقيقية!"
+                },
+                "startTime": 1749947700000,
+                "endTime": 1749948900000,
+                "images": [
+                    {
+                        "imageUrl": "http://s3-eu-west-1.amazonaws.com/rockettv.media.images/poster_streaming/S0009238_landscape10_MASTER1169573.jpg",
+                        "width": 3840,
+                        "height": 2160
+                    }
+                ],
+                "seasonNumber": 1,
+                "programType": "kids",
+                "listingGuid": "INT-INTIGRAL-LISTING-ce0e589de",
+                "ratings": [
+                    {
+                        "scheme": "urn:www.citc.gov.sa",
+                        "rating": "family",
+                        "subRatings": []
+                    },
+                    {
+                        "scheme": "urn:simple",
+                        "rating": "g",
+                        "subRatings": []
+                    }
+                ]
+            },
+            {
+                "listingId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/Listing/682872360109",
+                "paId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/ProgramAvailability/592069672111",
+                "title": "Amphibia - Escape to Amphibia",
+                "description": "Ordinary Anne Boonchuy, 13, finds a treasure chest that sends her to Amphibia, a world full of frogs, toads, and giant insects. With help from young frog Sprig, she adapts to life in Amphibia and discovers the true meaning of friendship.",
+                "localizedTitle": {
+                    "ar": "آمفيبيا:إيسكيب تو أمفيبيا"
+                },
+                "localizedDescription": {
+                    "ar": "تعثر آني بونشوي البالغة من العمر 13 عاماً على صندوق كنز يأخذها إلى عالَم أمفيبيا، مكان مليء بالضفادع والحشرات العملاقة. بمساعدة من سبرينغ تحاول آني التأقلم مع المكان وتشكل علاقة صداقة حقيقية!"
+                },
+                "startTime": 1749948900000,
+                "endTime": 1749950400000,
+                "images": [
+                    {
+                        "imageUrl": "http://s3-eu-west-1.amazonaws.com/rockettv.media.images/poster_streaming/S0009238_landscape10_MASTER1169573.jpg",
+                        "width": 3840,
+                        "height": 2160
+                    }
+                ],
+                "seasonNumber": 3,
+                "programType": "kids",
+                "listingGuid": "INT-INTIGRAL-LISTING-22d5d9b07",
+                "ratings": [
+                    {
+                        "scheme": "urn:www.citc.gov.sa",
+                        "rating": "family",
+                        "subRatings": []
+                    },
+                    {
+                        "scheme": "urn:simple",
+                        "rating": "g",
+                        "subRatings": []
+                    }
+                ]
+            },
+            {
+                "listingId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/Listing/683136039999",
+                "paId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/ProgramAvailability/540505127968",
+                "title": "Big City Greens - Little Buddy/Zen Garden",
+                "description": "Ten-year-old country boy Cricket Green is moving to the big city! Along with his older sister Tilly, father Bill and wild Gramma Alice, this small family can find big adventures no matter where they are!",
+                "localizedTitle": {
+                    "ar": "بيغ سيتي غرينز:ليتل بادي / زِن غاردن"
+                },
+                "localizedDescription": {
+                    "ar": "تابعوا المغامرات الغريبة للصبي الريفي المتفائل اللعوب (كريكيت غرين) ذو الأعوام العشرة، وأخته الكبرى تيلي ووالدهما بيل والجدّة آليس، فمع فضول كريكيت الفطري وحماسه الزائد يقودانه ومعه عائلته إلى رحلات ومغامرات لا تُنسى."
+                },
+                "startTime": 1749950400000,
+                "endTime": 1749951600000,
+                "images": [
+                    {
+                        "imageUrl": "http://s3-eu-west-1.amazonaws.com/rockettv.media.images/landscape_streaming/S0010820004089.jpg",
+                        "width": 1920,
+                        "height": 1080
+                    }
+                ],
+                "seasonNumber": 1,
+                "programType": "kids",
+                "listingGuid": "INT-INTIGRAL-LISTING-5f38d087c",
+                "ratings": [
+                    {
+                        "scheme": "urn:www.citc.gov.sa",
+                        "rating": "family",
+                        "subRatings": []
+                    },
+                    {
+                        "scheme": "urn:simple",
+                        "rating": "g",
+                        "subRatings": []
+                    }
+                ]
+            },
+            {
+                "listingId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/Listing/683136039998",
+                "paId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/ProgramAvailability/540748840320",
+                "title": "Big City Greens - No Service/Takened",
+                "description": "Ten-year-old country boy Cricket Green is moving to the big city! Along with his older sister Tilly, father Bill and wild Gramma Alice, this small family can find big adventures no matter where they are!",
+                "localizedTitle": {
+                    "ar": "بيغ سيتي غرينز:نو سِرفيس / تيكيند"
+                },
+                "localizedDescription": {
+                    "ar": "تابعوا المغامرات الغريبة للصبي الريفي المتفائل اللعوب (كريكيت غرين) ذو الأعوام العشرة، وأخته الكبرى تيلي ووالدهما بيل والجدّة آليس، فمع فضول كريكيت الفطري وحماسه الزائد يقودانه ومعه عائلته إلى رحلات ومغامرات لا تُنسى."
+                },
+                "startTime": 1749951600000,
+                "endTime": 1749953100000,
+                "images": [
+                    {
+                        "imageUrl": "http://s3-eu-west-1.amazonaws.com/rockettv.media.images/landscape_streaming/S0010820004089.jpg",
+                        "width": 1920,
+                        "height": 1080
+                    }
+                ],
+                "seasonNumber": 1,
+                "programType": "kids",
+                "listingGuid": "INT-INTIGRAL-LISTING-7d927916e",
+                "ratings": [
+                    {
+                        "scheme": "urn:www.citc.gov.sa",
+                        "rating": "family",
+                        "subRatings": []
+                    },
+                    {
+                        "scheme": "urn:simple",
+                        "rating": "g",
+                        "subRatings": []
+                    }
+                ]
+            },
+            {
+                "listingId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/Listing/683135016319",
+                "paId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/ProgramAvailability/541587495974",
+                "title": "Big City Greens - Green Greens/Truce Bomb",
+                "description": "Ten-year-old country boy Cricket Green is moving to the big city! Along with his older sister Tilly, father Bill and wild Gramma Alice, this small family can find big adventures no matter where they are!",
+                "localizedTitle": {
+                    "ar": "بيغ سيتي غرينز:غرين غرينز / تروس بامب"
+                },
+                "localizedDescription": {
+                    "ar": "تابعوا المغامرات الغريبة للصبي الريفي المتفائل اللعوب (كريكيت غرين) ذو الأعوام العشرة، وأخته الكبرى تيلي ووالدهما بيل والجدّة آليس، فمع فضول كريكيت الفطري وحماسه الزائد يقودانه ومعه عائلته إلى رحلات ومغامرات لا تُنسى."
+                },
+                "startTime": 1749953100000,
+                "endTime": 1749954300000,
+                "images": [
+                    {
+                        "imageUrl": "http://s3-eu-west-1.amazonaws.com/rockettv.media.images/landscape_streaming/S0010820004089.jpg",
+                        "width": 1920,
+                        "height": 1080
+                    }
+                ],
+                "seasonNumber": 1,
+                "programType": "kids",
+                "listingGuid": "INT-INTIGRAL-LISTING-3459eba6f",
+                "ratings": [
+                    {
+                        "scheme": "urn:www.citc.gov.sa",
+                        "rating": "family",
+                        "subRatings": []
+                    },
+                    {
+                        "scheme": "urn:simple",
+                        "rating": "g",
+                        "subRatings": []
+                    }
+                ]
+            },
+            {
+                "listingId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/Listing/683135016317",
+                "paId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/ProgramAvailability/314527272197",
+                "title": "Miraculous: Tales of Ladybug and Cat Noir - Gigantitan",
+                "description": "Marinette and Adrien are two extraordinary junior high students - they are the chosen ones to save Paris! And how exactly? By capturing evil creatures - the Akumas - that can transform anyone into a super villain.",
+                "localizedTitle": {
+                    "ar": "ميراكولوس: تيلز أوف ليدي-باغ آند كات نوير:جايجانتايتان"
+                },
+                "localizedDescription": {
+                    "ar": "مارينيت وأدريان طالبان استثنائيان في المدرسة الإعدادية. وقد تم اختيارهما لإنقاذ باريس! مهمتهما القبض على المخلوقات الشريرة - الأكوماس- التي يمكنها أن تتحول إلى أي شخص شرير خارق."
+                },
+                "startTime": 1749954300000,
+                "endTime": 1749955800000,
+                "images": [
+                    {
+                        "imageUrl": "http://s3-eu-west-1.amazonaws.com/rockettv.media.images/poster_streaming/EPG273371_landscape10_MASTER298158.jpg",
+                        "width": 711,
+                        "height": 400
+                    }
+                ],
+                "seasonNumber": 1,
+                "programType": "kids",
+                "listingGuid": "INT-INTIGRAL-LISTING-c9718afb3",
+                "ratings": [
+                    {
+                        "scheme": "urn:www.citc.gov.sa",
+                        "rating": "family",
+                        "subRatings": []
+                    },
+                    {
+                        "scheme": "urn:simple",
+                        "rating": "g",
+                        "subRatings": []
+                    }
+                ]
+            },
+            {
+                "listingId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/Listing/683135016315",
+                "paId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/ProgramAvailability/316874280170",
+                "title": "Miraculous: Tales of Ladybug and Cat Noir - Riposte",
+                "description": "Marinette and Adrien are two extraordinary junior high students - they are the chosen ones to save Paris! And how exactly? By capturing evil creatures - the Akumas - that can transform anyone into a super villain.",
+                "localizedTitle": {
+                    "ar": "ميراكولوس: تيلز أوف ليدي-باغ آند كات نوير:ريبوست"
+                },
+                "localizedDescription": {
+                    "ar": "مارينيت وأدريان طالبان استثنائيان في المدرسة الإعدادية. وقد تم اختيارهما لإنقاذ باريس! مهمتهما القبض على المخلوقات الشريرة - الأكوماس- التي يمكنها أن تتحول إلى أي شخص شرير خارق."
+                },
+                "startTime": 1749955800000,
+                "endTime": 1749957000000,
+                "images": [
+                    {
+                        "imageUrl": "http://s3-eu-west-1.amazonaws.com/rockettv.media.images/poster_streaming/EPG273371_landscape10_MASTER298158.jpg",
+                        "width": 711,
+                        "height": 400
+                    }
+                ],
+                "seasonNumber": 1,
+                "programType": "kids",
+                "listingGuid": "INT-INTIGRAL-LISTING-8cc89ddc4",
+                "ratings": [
+                    {
+                        "scheme": "urn:www.citc.gov.sa",
+                        "rating": "family",
+                        "subRatings": []
+                    },
+                    {
+                        "scheme": "urn:simple",
+                        "rating": "g",
+                        "subRatings": []
+                    }
+                ]
+            },
+            {
+                "listingId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/Listing/683136552198",
+                "paId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/ProgramAvailability/589251112144",
+                "title": "Gravity Falls - Not What He Seems",
+                "description": "When twins Dipper and Mabel are shipped off by their parents to their Great Uncle Stan's home in Gravity Falls for the summer, they realize something rather strange is going on in the town.",
+                "localizedTitle": {
+                    "ar": "غرافيتي فولز:َت وات هِي سيمز"
+                },
+                "localizedDescription": {
+                    "ar": "يقوم والدي ديبر وماربل بإرسالهما إلى منزل العم ستان في شلالات غرافيتي لموسم الصيف، يدركان هناك أن شيئاً غريباً على وشك الحدوث في البلدة."
+                },
+                "startTime": 1749957000000,
+                "endTime": 1749958500000,
+                "images": [
+                    {
+                        "imageUrl": "http://s3-eu-west-1.amazonaws.com/rockettv.media.images/poster_streaming/EPG131725_landscape10_MASTER289110.jpg",
+                        "width": 3000,
+                        "height": 1688
+                    }
+                ],
+                "seasonNumber": 2,
+                "programType": "kids",
+                "listingGuid": "INT-INTIGRAL-LISTING-bddd7c674",
+                "ratings": [
+                    {
+                        "scheme": "urn:www.citc.gov.sa",
+                        "rating": "family",
+                        "subRatings": []
+                    },
+                    {
+                        "scheme": "urn:simple",
+                        "rating": "g",
+                        "subRatings": []
+                    }
+                ]
+            },
+            {
+                "listingId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/Listing/683135528103",
+                "paId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/ProgramAvailability/588872744419",
+                "title": "Gravity Falls - Northwest Mansion Noir",
+                "description": "When twins Dipper and Mabel are shipped off by their parents to their Great Uncle Stan's home in Gravity Falls for the summer, they realize something rather strange is going on in the town.",
+                "localizedTitle": {
+                    "ar": "غرافيتي فولز:نورثويست مانشن نوير"
+                },
+                "localizedDescription": {
+                    "ar": "يقوم والدي ديبر وماربل بإرسالهما إلى منزل العم ستان في شلالات غرافيتي لموسم الصيف، يدركان هناك أن شيئاً غريباً على وشك الحدوث في البلدة."
+                },
+                "startTime": 1749958500000,
+                "endTime": 1749959700000,
+                "images": [
+                    {
+                        "imageUrl": "http://s3-eu-west-1.amazonaws.com/rockettv.media.images/poster_streaming/EPG131725_landscape10_MASTER289110.jpg",
+                        "width": 3000,
+                        "height": 1688
+                    }
+                ],
+                "seasonNumber": 1,
+                "programType": "kids",
+                "listingGuid": "INT-INTIGRAL-LISTING-c2d1cf986",
+                "ratings": [
+                    {
+                        "scheme": "urn:www.citc.gov.sa",
+                        "rating": "family",
+                        "subRatings": []
+                    },
+                    {
+                        "scheme": "urn:simple",
+                        "rating": "g",
+                        "subRatings": []
+                    }
+                ]
+            },
+            {
+                "listingId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/Listing/683137064067",
+                "paId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/ProgramAvailability/594460200021",
+                "title": "Mickey Mouse - Dog Show",
+                "description": "Mickey Mouse takes on new adventures, and somehow always ends up in comical dilemmas.",
+                "localizedTitle": {
+                    "ar": "ميكي ماوس:عرض كلاب"
+                },
+                "localizedDescription": {
+                    "ar": "يخوض ميكي ماوس مغامرات جديدة تضعه دائماً في مواقف محرجة رغم اختلاف الظروف."
+                },
+                "startTime": 1749959700000,
+                "endTime": 1749960000000,
+                "images": [
+                    {
+                        "imageUrl": "http://s3-eu-west-1.amazonaws.com/rockettv.media.images/poster_streaming/EPG99262_landscape10_MASTER288156.jpg",
+                        "width": 1920,
+                        "height": 1080
+                    }
+                ],
+                "seasonNumber": 1,
+                "programType": "kids",
+                "listingGuid": "INT-INTIGRAL-LISTING-a35fbb64a",
+                "ratings": [
+                    {
+                        "scheme": "urn:www.citc.gov.sa",
+                        "rating": "family",
+                        "subRatings": []
+                    },
+                    {
+                        "scheme": "urn:simple",
+                        "rating": "g",
+                        "subRatings": []
+                    }
+                ]
+            },
+            {
+                "listingId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/Listing/683135528101",
+                "paId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/ProgramAvailability/605514792032",
+                "title": "Phineas and Ferb - Got Game?/ Comet Kermillian",
+                "description": "Phineas Flynn and his stepbrother, Ferb Fletcher, set out to conquer boredom and make every day of their summer one long fun-filled vacation.",
+                "localizedTitle": {
+                    "ar": "فينياس آند فيرب:غَت غيم؟"
+                },
+                "localizedDescription": {
+                    "ar": "مع اقتراب عطلة الصيف، يقرر فينياس وفيرب أن يجعلا كل يوم أكثر مرحاً وتشويقاً من سابقه، فينطلقان في مغامرات إجازة زاخرة باللهو والفرح، والجرأة."
+                },
+                "startTime": 1749960000000,
+                "endTime": 1749961500000,
+                "images": [
+                    {
+                        "imageUrl": "http://s3-eu-west-1.amazonaws.com/rockettv.media.images/landscape_streaming/S000886103033.jpg",
+                        "width": 1920,
+                        "height": 1080
+                    }
+                ],
+                "seasonNumber": 1,
+                "programType": "kids",
+                "listingGuid": "INT-INTIGRAL-LISTING-146db628c",
+                "ratings": [
+                    {
+                        "scheme": "urn:www.citc.gov.sa",
+                        "rating": "family",
+                        "subRatings": []
+                    },
+                    {
+                        "scheme": "urn:simple",
+                        "rating": "g",
+                        "subRatings": []
+                    }
+                ]
+            },
+            {
+                "listingId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/Listing/683135528102",
+                "paId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/ProgramAvailability/605514792029",
+                "title": "Phineas and Ferb - Out of Toon/ Hail Doofania!",
+                "description": "Phineas Flynn and his stepbrother, Ferb Fletcher, set out to conquer boredom and make every day of their summer one long fun-filled vacation.",
+                "localizedTitle": {
+                    "ar": "فينياس آند فيرب:آوت أوف تون"
+                },
+                "localizedDescription": {
+                    "ar": "مع اقتراب عطلة الصيف، يقرر فينياس وفيرب أن يجعلا كل يوم أكثر مرحاً وتشويقاً من سابقه، فينطلقان في مغامرات إجازة زاخرة باللهو والفرح، والجرأة."
+                },
+                "startTime": 1749961500000,
+                "endTime": 1749963000000,
+                "images": [
+                    {
+                        "imageUrl": "http://s3-eu-west-1.amazonaws.com/rockettv.media.images/landscape_streaming/S000886103033.jpg",
+                        "width": 1920,
+                        "height": 1080
+                    }
+                ],
+                "seasonNumber": 1,
+                "programType": "kids",
+                "listingGuid": "INT-INTIGRAL-LISTING-73f00e07c",
+                "ratings": [
+                    {
+                        "scheme": "urn:www.citc.gov.sa",
+                        "rating": "family",
+                        "subRatings": []
+                    },
+                    {
+                        "scheme": "urn:simple",
+                        "rating": "g",
+                        "subRatings": []
+                    }
+                ]
+            },
+            {
+                "listingId": null,
+                "paId": null,
+                "title": "Klik Klub - Gert Johan",
+                "description": "",
+                "localizedTitle": {
+                    "ar": ""
+                },
+                "localizedDescription": {
+                    "ar": ""
+                },
+                "startTime": 1749963000000,
+                "endTime": 1749963300000,
+                "images": [],
+                "seasonNumber": null,
+                "programType": "kids",
+                "listingGuid": null,
+                "ratings": []
+            },
+            {
+                "listingId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/Listing/683136039993",
+                "paId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/ProgramAvailability/571454504398",
+                "title": "Big City Greens - Bad Dad/ Junk Junkie",
+                "description": "Ten-year-old country boy Cricket Green is moving to the big city! Along with his older sister Tilly, father Bill and wild Gramma Alice, this small family can find big adventures no matter where they are!",
+                "localizedTitle": {
+                    "ar": "بيغ سيتي غرينز:باد داد / جَنك جانكي"
+                },
+                "localizedDescription": {
+                    "ar": "تابعوا المغامرات الغريبة للصبي الريفي المتفائل اللعوب (كريكيت غرين) ذو الأعوام العشرة، وأخته الكبرى تيلي ووالدهما بيل والجدّة آليس، فمع فضول كريكيت الفطري وحماسه الزائد يقودانه ومعه عائلته إلى رحلات ومغامرات لا تُنسى."
+                },
+                "startTime": 1749963300000,
+                "endTime": 1749964800000,
+                "images": [
+                    {
+                        "imageUrl": "http://s3-eu-west-1.amazonaws.com/rockettv.media.images/landscape_streaming/S0010820004089.jpg",
+                        "width": 1920,
+                        "height": 1080
+                    }
+                ],
+                "seasonNumber": 4,
+                "programType": "kids",
+                "listingGuid": "INT-INTIGRAL-LISTING-160c5b71f",
+                "ratings": [
+                    {
+                        "scheme": "urn:www.citc.gov.sa",
+                        "rating": "family",
+                        "subRatings": []
+                    },
+                    {
+                        "scheme": "urn:simple",
+                        "rating": "g",
+                        "subRatings": []
+                    }
+                ]
+            },
+            {
+                "listingId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/Listing/683133480302",
+                "paId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/ProgramAvailability/571455528329",
+                "title": "Big City Greens - Handshaken/ Coffee Mates",
+                "description": "Ten-year-old country boy Cricket Green is moving to the big city! Along with his older sister Tilly, father Bill and wild Gramma Alice, this small family can find big adventures no matter where they are!",
+                "localizedTitle": {
+                    "ar": "بيغ سيتي غرينز:هاندشيكن / كوفي ميتس"
+                },
+                "localizedDescription": {
+                    "ar": "تابعوا المغامرات الغريبة للصبي الريفي المتفائل اللعوب (كريكيت غرين) ذو الأعوام العشرة، وأخته الكبرى تيلي ووالدهما بيل والجدّة آليس، فمع فضول كريكيت الفطري وحماسه الزائد يقودانه ومعه عائلته إلى رحلات ومغامرات لا تُنسى."
+                },
+                "startTime": 1749964800000,
+                "endTime": 1749966300000,
+                "images": [
+                    {
+                        "imageUrl": "http://s3-eu-west-1.amazonaws.com/rockettv.media.images/landscape_streaming/S0010820004089.jpg",
+                        "width": 1920,
+                        "height": 1080
+                    }
+                ],
+                "seasonNumber": 4,
+                "programType": "kids",
+                "listingGuid": "INT-INTIGRAL-LISTING-5c0da5d6b",
+                "ratings": [
+                    {
+                        "scheme": "urn:www.citc.gov.sa",
+                        "rating": "family",
+                        "subRatings": []
+                    },
+                    {
+                        "scheme": "urn:simple",
+                        "rating": "g",
+                        "subRatings": []
+                    }
+                ]
+            },
+            {
+                "listingId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/Listing/683136552193",
+                "paId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/ProgramAvailability/587756072202",
+                "title": "Big City Greens - Internetted/ Guiding Gregly",
+                "description": "Ten-year-old country boy Cricket Green is moving to the big city! Along with his older sister Tilly, father Bill and wild Gramma Alice, this small family can find big adventures no matter where they are!",
+                "localizedTitle": {
+                    "ar": "بيغ سيتي غرينز:إنترنيتيد / غايدينغ غريغلي"
+                },
+                "localizedDescription": {
+                    "ar": "تابعوا المغامرات الغريبة للصبي الريفي المتفائل اللعوب (كريكيت غرين) ذو الأعوام العشرة، وأخته الكبرى تيلي ووالدهما بيل والجدّة آليس، فمع فضول كريكيت الفطري وحماسه الزائد يقودانه ومعه عائلته إلى رحلات ومغامرات لا تُنسى."
+                },
+                "startTime": 1749966300000,
+                "endTime": 1749967800000,
+                "images": [
+                    {
+                        "imageUrl": "http://s3-eu-west-1.amazonaws.com/rockettv.media.images/landscape_streaming/S0010820004089.jpg",
+                        "width": 1920,
+                        "height": 1080
+                    }
+                ],
+                "seasonNumber": 4,
+                "programType": "kids",
+                "listingGuid": "INT-INTIGRAL-LISTING-dc5181424",
+                "ratings": [
+                    {
+                        "scheme": "urn:www.citc.gov.sa",
+                        "rating": "family",
+                        "subRatings": []
+                    },
+                    {
+                        "scheme": "urn:simple",
+                        "rating": "g",
+                        "subRatings": []
+                    }
+                ]
+            },
+            {
+                "listingId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/Listing/683135016311",
+                "paId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/ProgramAvailability/676954664367",
+                "title": "Miraculous Tales of Ladybug and Cat Noir - Sublimation",
+                "description": "Marinette and Adrien are two extraordinary junior high students - they are the chosen ones to save Paris! And how exactly? By capturing evil creatures - the Akumas - that can transform anyone into a super villain.",
+                "localizedTitle": {
+                    "ar": "ميراكولوس: تيلز أوف ليدي-باغ آند كات نوير:سابليميشن"
+                },
+                "localizedDescription": {
+                    "ar": "مارينيت وأدريان طالبان استثنائيان في المدرسة الإعدادية. وقد تم اختيارهما لإنقاذ باريس! مهمتهما القبض على المخلوقات الشريرة - الأكوماس- التي يمكنها أن تتحول إلى أي شخص شرير خارق."
+                },
+                "startTime": 1749967800000,
+                "endTime": 1749969300000,
+                "images": [
+                    {
+                        "imageUrl": "http://s3-eu-west-1.amazonaws.com/rockettv.media.images/poster_streaming/EPG273371_landscape10_MASTER298158.jpg",
+                        "width": 711,
+                        "height": 400
+                    }
+                ],
+                "seasonNumber": 6,
+                "programType": "kids",
+                "listingGuid": "INT-INTIGRAL-LISTING-160f65a92",
+                "ratings": [
+                    {
+                        "scheme": "urn:www.citc.gov.sa",
+                        "rating": "family",
+                        "subRatings": []
+                    },
+                    {
+                        "scheme": "urn:simple",
+                        "rating": "g",
+                        "subRatings": []
+                    }
+                ]
+            },
+            {
+                "listingId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/Listing/683135528099",
+                "paId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/ProgramAvailability/676961320359",
+                "title": "Miraculous Tales of Ladybug and Cat Noir - The Illustrhater",
+                "description": "Marinette and Adrien are two extraordinary junior high students - they are the chosen ones to save Paris! And how exactly? By capturing evil creatures - the Akumas - that can transform anyone into a super villain.",
+                "localizedTitle": {
+                    "ar": "ميراكولوس: تيلز أوف ليدي-باغ آند كات نوير:ذي إللاستريتار"
+                },
+                "localizedDescription": {
+                    "ar": "مارينيت وأدريان طالبان استثنائيان في المدرسة الإعدادية. وقد تم اختيارهما لإنقاذ باريس! مهمتهما القبض على المخلوقات الشريرة - الأكوماس- التي يمكنها أن تتحول إلى أي شخص شرير خارق."
+                },
+                "startTime": 1749969300000,
+                "endTime": 1749970800000,
+                "images": [
+                    {
+                        "imageUrl": "http://s3-eu-west-1.amazonaws.com/rockettv.media.images/poster_streaming/EPG273371_landscape10_MASTER298158.jpg",
+                        "width": 711,
+                        "height": 400
+                    }
+                ],
+                "seasonNumber": 6,
+                "programType": "kids",
+                "listingGuid": "INT-INTIGRAL-LISTING-115c1de47",
+                "ratings": [
+                    {
+                        "scheme": "urn:www.citc.gov.sa",
+                        "rating": "family",
+                        "subRatings": []
+                    },
+                    {
+                        "scheme": "urn:simple",
+                        "rating": "g",
+                        "subRatings": []
+                    }
+                ]
+            },
+            {
+                "listingId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/Listing/683135528097",
+                "paId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/ProgramAvailability/590756392048",
+                "title": "Primos - Summer of El Patin/ Summer of Chisme",
+                "description": "\"Primos\" follows Tater Ramirez Humphrey, an eccentric girl who has big dreams for her future and just one summer to figure them all out, complicated by all 12 of her cousins coming to visit.",
+                "localizedTitle": {
+                    "ar": "بريموس:سمّر أوف إل باتين/سمّر أوف تيزميه"
+                },
+                "localizedDescription": {
+                    "ar": "تدور أحداث المسلسل حول تيتر راميريز هَمفري، فتاة غريبة الأطوار تحلم بأحلام كبيرة لمستقبلها كما تراها لنفسها، وليس أمامها سوى هذا الصيف الوحيد لتحقيقها؛ لكن الأمور تتعقد بسبب زيارة جميع أبناء عمومتها البالغ عددهم 12 لزيارتها."
+                },
+                "startTime": 1749970800000,
+                "endTime": 1749972300000,
+                "images": [
+                    {
+                        "imageUrl": "http://s3-eu-west-1.amazonaws.com/rockettv.media.images/landscape_streaming/S0010936001002.jpg",
+                        "width": 1920,
+                        "height": 1080
+                    }
+                ],
+                "seasonNumber": 1,
+                "programType": "kids",
+                "listingGuid": "INT-INTIGRAL-LISTING-49fd43511",
+                "ratings": [
+                    {
+                        "scheme": "urn:www.citc.gov.sa",
+                        "rating": "family",
+                        "subRatings": []
+                    },
+                    {
+                        "scheme": "urn:simple",
+                        "rating": "g",
+                        "subRatings": []
+                    }
+                ]
+            },
+            {
+                "listingId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/Listing/683135528094",
+                "paId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/ProgramAvailability/590755880445",
+                "title": "Primos - Summer of Quehaceres/ Summer of La Muñeca",
+                "description": "\"Primos\" follows Tater Ramirez Humphrey, an eccentric girl who has big dreams for her future and just one summer to figure them all out, complicated by all 12 of her cousins coming to visit.",
+                "localizedTitle": {
+                    "ar": "بريموس:سمّر أوف نو سابو/سمّر أوف بوكيتا"
+                },
+                "localizedDescription": {
+                    "ar": "تدور أحداث المسلسل حول تيتر راميريز هَمفري، فتاة غريبة الأطوار تحلم بأحلام كبيرة لمستقبلها كما تراها لنفسها، وليس أمامها سوى هذا الصيف الوحيد لتحقيقها؛ لكن الأمور تتعقد بسبب زيارة جميع أبناء عمومتها البالغ عددهم 12 لزيارتها."
+                },
+                "startTime": 1749972300000,
+                "endTime": 1749973500000,
+                "images": [
+                    {
+                        "imageUrl": "http://s3-eu-west-1.amazonaws.com/rockettv.media.images/landscape_streaming/S0010936001002.jpg",
+                        "width": 1920,
+                        "height": 1080
+                    }
+                ],
+                "seasonNumber": 1,
+                "programType": "kids",
+                "listingGuid": "INT-INTIGRAL-LISTING-5209a79ca",
+                "ratings": [
+                    {
+                        "scheme": "urn:www.citc.gov.sa",
+                        "rating": "family",
+                        "subRatings": []
+                    },
+                    {
+                        "scheme": "urn:simple",
+                        "rating": "g",
+                        "subRatings": []
+                    }
+                ]
+            },
+            {
+                "listingId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/Listing/683133480303",
+                "paId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/ProgramAvailability/571454504398",
+                "title": "Big City Greens - Bad Dad/ Junk Junkie",
+                "description": "Ten-year-old country boy Cricket Green is moving to the big city! Along with his older sister Tilly, father Bill and wild Gramma Alice, this small family can find big adventures no matter where they are!",
+                "localizedTitle": {
+                    "ar": "بيغ سيتي غرينز:باد داد / جَنك جانكي"
+                },
+                "localizedDescription": {
+                    "ar": "تابعوا المغامرات الغريبة للصبي الريفي المتفائل اللعوب (كريكيت غرين) ذو الأعوام العشرة، وأخته الكبرى تيلي ووالدهما bيل والجدّة آليس، فمع فضول كريكيت الفطري وحماسه الزائد يقودانه ومعه عائلته إلى رحلات ومغامرات لا تُنسى."
+                },
+                "startTime": 1749973500000,
+                "endTime": 1749975000000,
+                "images": [
+                    {
+                        "imageUrl": "http://s3-eu-west-1.amazonaws.com/rockettv.media.images/landscape_streaming/S0010820004089.jpg",
+                        "width": 1920,
+                        "height": 1080
+                    }
+                ],
+                "seasonNumber": 4,
+                "programType": "kids",
+                "listingGuid": "INT-INTIGRAL-LISTING-742c2edb5",
+                "ratings": [
+                    {
+                        "scheme": "urn:www.citc.gov.sa",
+                        "rating": "family",
+                        "subRatings": []
+                    },
+                    {
+                        "scheme": "urn:simple",
+                        "rating": "g",
+                        "subRatings": []
+                    }
+                ]
+            },
+            {
+                "listingId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/Listing/683135528100",
+                "paId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/ProgramAvailability/571455528329",
+                "title": "Big City Greens - Handshaken/ Coffee Mates",
+                "description": "Ten-year-old country boy Cricket Green is moving to the big city! Along with his older sister Tilly, father Bill and wild Gramma Alice, this small family can find big adventures no matter where they are!",
+                "localizedTitle": {
+                    "ar": "بيغ سيتي غرينز:هاندشيكن / كوفي ميتس"
+                },
+                "localizedDescription": {
+                    "ar": "تابعوا المغامرات الغريبة للصبي الريفي المتفائل اللعوب (كريكيت غرين) ذو الأعوام العشرة، وأخته الكبرى تيلي ووالدهما bيل والجدّة آليس، فمع فضول كريكيت الفطري وحماسه الزائد يقودانه ومعه عائلته إلى رحلات ومغامرات لا تُنسى."
+                },
+                "startTime": 1749975000000,
+                "endTime": 1749976500000,
+                "images": [
+                    {
+                        "imageUrl": "http://s3-eu-west-1.amazonaws.com/rockettv.media.images/landscape_streaming/S0010820004089.jpg",
+                        "width": 1920,
+                        "height": 1080
+                    }
+                ],
+                "seasonNumber": 4,
+                "programType": "kids",
+                "listingGuid": "INT-INTIGRAL-LISTING-3260d21e9",
+                "ratings": [
+                    {
+                        "scheme": "urn:www.citc.gov.sa",
+                        "rating": "family",
+                        "subRatings": []
+                    },
+                    {
+                        "scheme": "urn:simple",
+                        "rating": "g",
+                        "subRatings": []
+                    }
+                ]
+            },
+            {
+                "listingId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/Listing/683135016313",
+                "paId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/ProgramAvailability/587756072202",
+                "title": "Big City Greens - Internetted/ Guiding Gregly",
+                "description": "Ten-year-old country boy Cricket Green is moving to the big city! Along with his older sister Tilly, father Bill and wild Gramma Alice, this small family can find big adventures no matter where they are!",
+                "localizedTitle": {
+                    "ar": "بيغ سيتي غرينز:إنترنيتيد / غايدينغ غريغلي"
+                },
+                "localizedDescription": {
+                    "ar": "تابعوا المغامرات الغريبة للصبي الريفي المتفائل اللعوب (كريكيت غرين) ذو الأعوام العشرة، وأخته الكبرى تيلي ووالدهما bيل والجدّة آليس، فمع فضول كريكيت الفطري وحماسه الزائد يقودانه ومعه عائلته إلى رحلات ومغامرات لا تُنسى."
+                },
+                "startTime": 1749976500000,
+                "endTime": 1749977700000,
+                "images": [
+                    {
+                        "imageUrl": "http://s3-eu-west-1.amazonaws.com/rockettv.media.images/landscape_streaming/S0010820004089.jpg",
+                        "width": 1920,
+                        "height": 1080
+                    }
+                ],
+                "seasonNumber": 4,
+                "programType": "kids",
+                "listingGuid": "INT-INTIGRAL-LISTING-4624b332f",
+                "ratings": [
+                    {
+                        "scheme": "urn:www.citc.gov.sa",
+                        "rating": "family",
+                        "subRatings": []
+                    },
+                    {
+                        "scheme": "urn:simple",
+                        "rating": "g",
+                        "subRatings": []
+                    }
+                ]
+            },
+            {
+                "listingId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/Listing/683135016312",
+                "paId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/ProgramAvailability/683132455964",
+                "title": "Big City Greens - Family Tree",
+                "description": "Ten-year-old country boy Cricket Green is moving to the big city! Along with his older sister Tilly, father Bill and wild Gramma Alice, this small family can find big adventures no matter where they are!",
+                "localizedTitle": {
+                    "ar": "بيغ سيتي غرينز:فاميلي تري"
+                },
+                "localizedDescription": {
+                    "ar": "تابعوا المغامرات الغريبة للصبي الريفي المتفائل اللعوب (كريكيت غرين) ذو الأعوام العشرة، وأخته الكبرى تيلي ووالدهما bيل والجدّة آليس، فمع فضول كريكيت الفطري وحماسه الزائد يقودانه ومعه عائلته إلى رحلات ومغامرات لا تُنسى."
+                },
+                "startTime": 1749977700000,
+                "endTime": 1749978300000,
+                "images": [
+                    {
+                        "imageUrl": "http://s3-eu-west-1.amazonaws.com/rockettv.media.images/landscape_streaming/S0010820004089.jpg",
+                        "width": 1920,
+                        "height": 1080
+                    }
+                ],
+                "seasonNumber": 4,
+                "programType": "kids",
+                "listingGuid": "INT-INTIGRAL-LISTING-b6b54bd73",
+                "ratings": [
+                    {
+                        "scheme": "urn:www.citc.gov.sa",
+                        "rating": "family",
+                        "subRatings": []
+                    },
+                    {
+                        "scheme": "urn:simple",
+                        "rating": "g",
+                        "subRatings": []
+                    }
+                ]
+            },
+            {
+                "listingId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/Listing/683137064066",
+                "paId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/ProgramAvailability/593855016424",
+                "title": "Kiff - Kiff is Good at Sports/ Mushroommates",
+                "description": "Follow Kiff, an optimistic squirrel whose thirst for life takes her on countless adventures alongside Barry, her chill bunny bestie. Set in a world where animals and magical oddballs tackle day-to-day life together, the duo navigate school, relationships, and their often-eccentric community.",
+                "localizedTitle": {
+                    "ar": "كِفّ:كيفّ إز غوود آت سبورتس / ماشرومميتس"
+                },
+                "localizedDescription": {
+                    "ar": "يتابع المسلسل أنثى سنجاب متفائلة، يقودها تعطشها للحياة إلى عيش مغامرات عديدة في بلدتها مع صديقها المفضل الرائع (باري). تجري الأحداث في بلدة تتعايش فيها الحيوانات والمخلوقات السحرية، ويخوض الثنائي معاً المدرسة والعلاقات ومجتمعها الذي غالباً ما يتسم بالغرابة."
+                },
+                "startTime": 1749978300000,
+                "endTime": 1749979800000,
+                "images": [
+                    {
+                        "imageUrl": "http://s3-eu-west-1.amazonaws.com/rockettv.media.images/landscape_streaming/S0010800001025.jpg",
+                        "width": 1920,
+                        "height": 1080
+                    }
+                ],
+                "seasonNumber": 1,
+                "programType": "kids",
+                "listingGuid": "INT-INTIGRAL-LISTING-ec86fe716",
+                "ratings": [
+                    {
+                        "scheme": "urn:www.citc.gov.sa",
+                        "rating": "family",
+                        "subRatings": []
+                    },
+                    {
+                        "scheme": "urn:simple",
+                        "rating": "g",
+                        "subRatings": []
+                    }
+                ]
+            },
+            {
+                "listingId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/Listing/683133480305",
+                "paId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/ProgramAvailability/594460712054",
+                "title": "Kiff - Principal Helen/ Dial B for Butt",
+                "description": "Follow Kiff, an optimistic squirrel whose thirst for life takes her on countless adventures alongside Barry, her chill bunny bestie. Set in a world where animals and magical oddballs tackle day-to-day life together, the duo navigate school, relationships, and their often-eccentric community.",
+                "localizedTitle": {
+                    "ar": "كِفّ:برينسيبال هيلين / دايال بي فور"
+                },
+                "localizedDescription": {
+                    "ar": "يتابع المسلسل أنثى سنجاب متفائلة، يقودها تعطشها للحياة إلى عيش مغامرات عديدة في بلدتها مع صديقها المفضل الرائع (باري). تجري الأحداث في بلدة تتعايش فيها الحيوانات والمخلوقات السحرية، ويخوض الثنائي معاً المدرسة والعلاقات ومجتمعها الذي غالباً ما يتسم بالغرابة."
+                },
+                "startTime": 1749979800000,
+                "endTime": 1749981300000,
+                "images": [
+                    {
+                        "imageUrl": "http://s3-eu-west-1.amazonaws.com/rockettv.media.images/landscape_streaming/S0010800001025.jpg",
+                        "width": 1920,
+                        "height": 1080
+                    }
+                ],
+                "seasonNumber": 1,
+                "programType": "kids",
+                "listingGuid": "INT-INTIGRAL-LISTING-d92235360",
+                "ratings": [
+                    {
+                        "scheme": "urn:www.citc.gov.sa",
+                        "rating": "family",
+                        "subRatings": []
+                    },
+                    {
+                        "scheme": "urn:simple",
+                        "rating": "g",
+                        "subRatings": []
+                    }
+                ]
+            },
+            {
+                "listingId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/Listing/683136039995",
+                "paId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/ProgramAvailability/575069736380",
+                "title": "Hamster and Gretel - I Think Therefore I Slam/ Thanks, but No Pranks",
+                "description": "Gretel and her pet hamster are given superpowers by aliens and the big responsibility of being heroes on Earth! Now, Hamster & Gretel must save the world from one supervillain after another, all while keeping their identities a secret!",
+                "localizedTitle": {
+                    "ar": "هامستر & غريتل:آي ثينك ذيرفور آي سْلام..."
+                },
+                "localizedDescription": {
+                    "ar": "تُمنح غريتل وحيوانها الأليف الهامستر قوى خارقة من قِبل الكائنات الفضائية، ومع مسؤولية كبيرة لأن يكونا بطلَين على الأرض! الآن، يجب على هامستر وغريتل إنقاذ العالم من الأشرار الخارقين الواحد تلو الآخر؛ وسينفذّ كل ذلك مع الحفاظ على هوياتهم السرّية!"
+                },
+                "startTime": 1749981300000,
+                "endTime": 1749982500000,
+                "images": [
+                    {
+                        "imageUrl": "http://s3-eu-west-1.amazonaws.com/rockettv.media.images/landscape_streaming/S0010681002.jpg",
+                        "width": 1920,
+                        "height": 1080
+                    }
+                ],
+                "seasonNumber": 2,
+                "programType": "kids",
+                "listingGuid": "INT-INTIGRAL-LISTING-a5736d1b5",
+                "ratings": [
+                    {
+                        "scheme": "urn:www.citc.gov.sa",
+                        "rating": "family",
+                        "subRatings": []
+                    },
+                    {
+                        "scheme": "urn:simple",
+                        "rating": "g",
+                        "subRatings": []
+                    }
+                ]
+            },
+            {
+                "listingId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/Listing/683136039994",
+                "paId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/ProgramAvailability/575576616328",
+                "title": "Hamster and Gretel - Silence of the Tchotchkes, The/ Car is Born, A",
+                "description": "Gretel and her pet hamster are given superpowers by aliens and the big responsibility of being heroes on Earth! Now, Hamster & Gretel must save the world from one supervillain after another, all while keeping their identities a secret!",
+                "localizedTitle": {
+                    "ar": "هامستر & غريتل:ذا سايلانس أوف ذا تشاتشكيس"
+                },
+                "localizedDescription": {
+                    "ar": "تُمنح غريتل وحيوانها الأليف الهامستر قوى خارقة من قِبل الكائنات الفضائية، ومع مسؤولية كبيرة لأن يكونا بطلَين على الأرض! الآن، يجب على هامستر وغريتل إنقاذ العالم من الأشرار الخارقين الواحد تلو الآخر؛ وسينفذّ كل ذلك مع الحفاظ على هوياتهم السرّية!"
+                },
+                "startTime": 1749982500000,
+                "endTime": 1749984000000,
+                "images": [
+                    {
+                        "imageUrl": "http://s3-eu-west-1.amazonaws.com/rockettv.media.images/landscape_streaming/S0010681002.jpg",
+                        "width": 1920,
+                        "height": 1080
+                    }
+                ],
+                "seasonNumber": 2,
+                "programType": "kids",
+                "listingGuid": "INT-INTIGRAL-LISTING-d391b66b3",
+                "ratings": [
+                    {
+                        "scheme": "urn:www.citc.gov.sa",
+                        "rating": "family",
+                        "subRatings": []
+                    },
+                    {
+                        "scheme": "urn:simple",
+                        "rating": "g",
+                        "subRatings": []
+                    }
+                ]
+            },
+            {
+                "listingId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/Listing/683137064069",
+                "paId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/ProgramAvailability/650968104409",
+                "title": "Hamster and Gretel - Who's in Charge?/ Fools of Engagement",
+                "description": "Gretel and her pet hamster are given superpowers by aliens and the big responsibility of being heroes on Earth! Now, Hamster & Gretel must save the world from one supervillain after another, all while keeping their identities a secret!",
+                "localizedTitle": {
+                    "ar": "هامستر & غريتل:هوز إن تشارج؟/ فوولز أوف إنغيجمانت"
+                },
+                "localizedDescription": {
+                    "ar": "تُمنح غريتل وحيوانها الأليف الهامستر قوى خارقة من قِبل الكائنات الفضائية، ومع مسؤولية كبيرة لأن يكونا بطلَين على الأرض! الآن، يجب على هامستر وغريتل إنقاذ العالم من الأشرار الخارقين الواحد تلو الآخر؛ وسينفذّ كل ذلك مع الحفاظ على هوياتهم السرّية!"
+                },
+                "startTime": 1749984000000,
+                "endTime": 1749985500000,
+                "images": [
+                    {
+                        "imageUrl": "http://s3-eu-west-1.amazonaws.com/rockettv.media.images/landscape_streaming/S0010681002.jpg",
+                        "width": 1920,
+                        "height": 1080
+                    }
+                ],
+                "seasonNumber": 2,
+                "programType": "kids",
+                "listingGuid": "INT-INTIGRAL-LISTING-05ffcd5a7",
+                "ratings": [
+                    {
+                        "scheme": "urn:www.citc.gov.sa",
+                        "rating": "family",
+                        "subRatings": []
+                    },
+                    {
+                        "scheme": "urn:simple",
+                        "rating": "g",
+                        "subRatings": []
+                    }
+                ]
+            },
+            {
+                "listingId": null,
+                "paId": null,
+                "title": "Zombies: The Re - Animated Series",
+                "description": "",
+                "localizedTitle": {
+                    "ar": ""
+                },
+                "localizedDescription": {
+                    "ar": ""
+                },
+                "startTime": 1749985500000,
+                "endTime": 1749987000000,
+                "images": [],
+                "seasonNumber": null,
+                "programType": "kids",
+                "listingGuid": null,
+                "ratings": []
+            },
+            {
+                "listingId": null,
+                "paId": null,
+                "title": "Zombies: The Re - Animated Series",
+                "description": "",
+                "localizedTitle": {
+                    "ar": ""
+                },
+                "localizedDescription": {
+                    "ar": ""
+                },
+                "startTime": 1749987000000,
+                "endTime": 1749988200000,
+                "images": [],
+                "seasonNumber": null,
+                "programType": "kids",
+                "listingGuid": null,
+                "ratings": []
+            },
+            {
+                "listingId": null,
+                "paId": null,
+                "title": "Zombies: The Re - Animated Series",
+                "description": "",
+                "localizedTitle": {
+                    "ar": ""
+                },
+                "localizedDescription": {
+                    "ar": ""
+                },
+                "startTime": 1749988200000,
+                "endTime": 1749988800000,
+                "images": [],
+                "seasonNumber": null,
+                "programType": "kids",
+                "listingGuid": null,
+                "ratings": []
+            },
+            {
+                "listingId": null,
+                "paId": null,
+                "title": "Jessie - Austin and Jessie and Ally's All Star Special",
+                "description": "",
+                "localizedTitle": {
+                    "ar": ""
+                },
+                "localizedDescription": {
+                    "ar": ""
+                },
+                "startTime": 1749988800000,
+                "endTime": 1749990300000,
+                "images": [],
+                "seasonNumber": null,
+                "programType": "entertainment",
+                "listingGuid": null,
+                "ratings": []
+            },
+            {
+                "listingId": null,
+                "paId": null,
+                "title": "Jessie - Say Yes to the Messy Dress",
+                "description": "",
+                "localizedTitle": {
+                    "ar": ""
+                },
+                "localizedDescription": {
+                    "ar": ""
+                },
+                "startTime": 1749990300000,
+                "endTime": 1749991800000,
+                "images": [],
+                "seasonNumber": null,
+                "programType": "entertainment",
+                "listingGuid": null,
+                "ratings": []
+            },
+            {
+                "listingId": null,
+                "paId": null,
+                "title": "Jessie - Pain in the Rear Window",
+                "description": "",
+                "localizedTitle": {
+                    "ar": ""
+                },
+                "localizedDescription": {
+                    "ar": ""
+                },
+                "startTime": 1749991800000,
+                "endTime": 1749993300000,
+                "images": [],
+                "seasonNumber": null,
+                "programType": "entertainment",
+                "listingGuid": null,
+                "ratings": []
+            },
+            {
+                "listingId": null,
+                "paId": null,
+                "title": "Jessie - Teacher's Pest",
+                "description": "",
+                "localizedTitle": {
+                    "ar": ""
+                },
+                "localizedDescription": {
+                    "ar": ""
+                },
+                "startTime": 1749993300000,
+                "endTime": 1749994800000,
+                "images": [],
+                "seasonNumber": null,
+                "programType": "entertainment",
+                "listingGuid": null,
+                "ratings": []
+            },
+            {
+                "listingId": null,
+                "paId": null,
+                "title": "Jessie - To Be Me, or Not To Be Me",
+                "description": "",
+                "localizedTitle": {
+                    "ar": ""
+                },
+                "localizedDescription": {
+                    "ar": ""
+                },
+                "startTime": 1749994800000,
+                "endTime": 1749996300000,
+                "images": [],
+                "seasonNumber": null,
+                "programType": "entertainment",
+                "listingGuid": null,
+                "ratings": []
+            },
+            {
+                "listingId": null,
+                "paId": null,
+                "title": "Wandi and Kabz - Sol Plaatje",
+                "description": "",
+                "localizedTitle": {
+                    "ar": ""
+                },
+                "localizedDescription": {
+                    "ar": ""
+                },
+                "startTime": 1749996300000,
+                "endTime": 1749996600000,
+                "images": [],
+                "seasonNumber": null,
+                "programType": "entertainment",
+                "listingGuid": null,
+                "ratings": []
+            },
+            {
+                "listingId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/Listing/683133480313",
+                "paId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/ProgramAvailability/526797352097",
+                "title": "Kiff - Hat/ Lost and Found",
+                "description": "Follow Kiff, an optimistic squirrel whose thirst for life takes her on countless adventures alongside Barry, her chill bunny bestie. Set in a world where animals and magical oddballs tackle day-to-day life together, the duo navigate school, relationships, and their often-eccentric community.",
+                "localizedTitle": {
+                    "ar": "كِفّ:هات/لوست آند فاوند"
+                },
+                "localizedDescription": {
+                    "ar": "يتابع المسلسل أنثى سنجاب متفائلة، يقودها تعطشها للحياة إلى عيش مغامرات عديدة في بلدتها مع صديقها المفضل الرائع (باري). تجري الأحداث في بلدة تتعايش فيها الحيوانات والمخلوقات السحرية، ويخوض الثنائي معاً المدرسة والعلاقات ومجتمعها الذي غالباً ما يتسم بالغرابة."
+                },
+                "startTime": 1749996600000,
+                "endTime": 1749998100000,
+                "images": [
+                    {
+                        "imageUrl": "http://s3-eu-west-1.amazonaws.com/rockettv.media.images/landscape_streaming/S0010800001025.jpg",
+                        "width": 1920,
+                        "height": 1080
+                    }
+                ],
+                "seasonNumber": 1,
+                "programType": "kids",
+                "listingGuid": "INT-INTIGRAL-LISTING-b32277a3f",
+                "ratings": [
+                    {
+                        "scheme": "urn:www.citc.gov.sa",
+                        "rating": "family",
+                        "subRatings": []
+                    },
+                    {
+                        "scheme": "urn:simple",
+                        "rating": "g",
+                        "subRatings": []
+                    }
+                ]
+            },
+            {
+                "listingId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/Listing/683136040008",
+                "paId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/ProgramAvailability/523023400074",
+                "title": "Kiff - Two Truths and a Bunny/ Nicknames",
+                "description": "Follow Kiff, an optimistic squirrel whose thirst for life takes her on countless adventures alongside Barry, her chill bunny bestie. Set in a world where animals and magical oddballs tackle day-to-day life together, the duo navigate school, relationships, and their often-eccentric community.",
+                "localizedTitle": {
+                    "ar": "كِفّ:تو تروس آند ايه باني/ نيكنيمز"
+                },
+                "localizedDescription": {
+                    "ar": "يتابع المسلسل أنثى سنجاب متفائلة، يقودها تعطشها للحياة إلى عيش مغامرات عديدة في بلدتها مع صديقها المفضل الرائع (باري). تجري الأحداث في بلدة تتعايش فيها الحيوانات والمخلوقات السحرية، ويخوض الثنائي معاً المدرسة والعلاقات ومجتمعها الذي غالباً ما يتسم بالغرابة."
+                },
+                "startTime": 1749998100000,
+                "endTime": 1749999600000,
+                "images": [
+                    {
+                        "imageUrl": "http://s3-eu-west-1.amazonaws.com/rockettv.media.images/landscape_streaming/S0010800001025.jpg",
+                        "width": 1920,
+                        "height": 1080
+                    }
+                ],
+                "seasonNumber": 1,
+                "programType": "kids",
+                "listingGuid": "INT-INTIGRAL-LISTING-a867b4d63",
+                "ratings": [
+                    {
+                        "scheme": "urn:www.citc.gov.sa",
+                        "rating": "family",
+                        "subRatings": []
+                    },
+                    {
+                        "scheme": "urn:simple",
+                        "rating": "g",
+                        "subRatings": []
+                    }
+                ]
+            },
+            {
+                "listingId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/Listing/683135016327",
+                "paId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/ProgramAvailability/681216039973",
+                "title": "Wizards Beyond Waverly Place - Ready Player Wand",
+                "description": "Billie, a powerful young wizard, is sent to live in the mortal world with the only wizard teacher who can help her control her powers—Justin Russo.",
+                "localizedTitle": {
+                    "ar": "ويزاردس بيوند ويڤرلي بليس:ريدي بلييار واند"
+                },
+                "localizedDescription": {
+                    "ar": "بيلي، شابة قوية، تُرسل لتعيش في العالم البشري مع المعلم الوحيد الذي يمكنه مساعدتها في التحكم في قواها - جاستن روسو."
+                },
+                "startTime": 1749999600000,
+                "endTime": 1750001100000,
+                "images": [
+                    {
+                        "imageUrl": "http://s3-eu-west-1.amazonaws.com/rockettv.media.images/poster_streaming/EPG614355_landscape10-9145b7c3-c98c-4cc1-b1aa-6e74f2a697c3.jpg",
+                        "width": 3840,
+                        "height": 2160
+                    }
+                ],
+                "seasonNumber": 1,
+                "programType": "entertainment",
+                "listingGuid": "INT-INTIGRAL-LISTING-55b1efdce",
+                "ratings": [
+                    {
+                        "scheme": "urn:www.citc.gov.sa",
+                        "rating": "family",
+                        "subRatings": []
+                    },
+                    {
+                        "scheme": "urn:simple",
+                        "rating": "g",
+                        "subRatings": []
+                    }
+                ]
+            },
+            {
+                "listingId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/Listing/683135528113",
+                "paId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/ProgramAvailability/681714727962",
+                "title": "Wizards Beyond Waverly Place - Quest Birthday Ever!",
+                "description": "Billie, a powerful young wizard, is sent to live in the mortal world with the only wizard teacher who can help her control her powers—Justin Russo.",
+                "localizedTitle": {
+                    "ar": "ويزاردس بيوند ويڤرلي بليس:كويست بيرثدِي إيڤر!"
+                },
+                "localizedDescription": {
+                    "ar": "بيلي، شابة قوية، تُرسل لتعيش في العالم البشري مع المعلم الوحيد الذي يمكنه مساعدتها في التحكم في قواها - جاستن روسو."
+                },
+                "startTime": 1750001100000,
+                "endTime": 1750002600000,
+                "images": [
+                    {
+                        "imageUrl": "http://s3-eu-west-1.amazonaws.com/rockettv.media.images/poster_streaming/EPG614355_landscape10-9145b7c3-c98c-4cc1-b1aa-6e74f2a697c3.jpg",
+                        "width": 3840,
+                        "height": 2160
+                    }
+                ],
+                "seasonNumber": 1,
+                "programType": "entertainment",
+                "listingGuid": "INT-INTIGRAL-LISTING-fd0b6caa4",
+                "ratings": [
+                    {
+                        "scheme": "urn:www.citc.gov.sa",
+                        "rating": "family",
+                        "subRatings": []
+                    },
+                    {
+                        "scheme": "urn:simple",
+                        "rating": "g",
+                        "subRatings": []
+                    }
+                ]
+            },
+            {
+                "listingId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/Listing/683136552203",
+                "paId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/ProgramAvailability/676954664367",
+                "title": "Miraculous Tales of Ladybug and Cat Noir - Sublimation",
+                "description": "Marinette and Adrien are two extraordinary junior high students - they are the chosen ones to save Paris! And how exactly? By capturing evil creatures - the Akumas - that can transform anyone into a super villain.",
+                "localizedTitle": {
+                    "ar": "ميراكولوس: تيلز أوف ليدي-باغ آند كات نوير:سابليميشن"
+                },
+                "localizedDescription": {
+                    "ar": "مارينيت وأدريان طالبان استثنائيان في المدرسة الإعدادية. وقد تم اختيارهما لإنقاذ باريس! مهمتهما القبض على المخلوقات الشريرة - الأكوماس- التي يمكنها أن تتحول إلى أي شخص شرير خارق."
+                },
+                "startTime": 1750002600000,
+                "endTime": 1750004100000,
+                "images": [
+                    {
+                        "imageUrl": "http://s3-eu-west-1.amazonaws.com/rockettv.media.images/poster_streaming/EPG273371_landscape10_MASTER298158.jpg",
+                        "width": 711,
+                        "height": 400
+                    }
+                ],
+                "seasonNumber": 6,
+                "programType": "kids",
+                "listingGuid": "INT-INTIGRAL-LISTING-afb394a1f",
+                "ratings": [
+                    {
+                        "scheme": "urn:www.citc.gov.sa",
+                        "rating": "family",
+                        "subRatings": []
+                    },
+                    {
+                        "scheme": "urn:simple",
+                        "rating": "g",
+                        "subRatings": []
+                    }
+                ]
+            },
+            {
+                "listingId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/Listing/683136040010",
+                "paId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/ProgramAvailability/676961320359",
+                "title": "Miraculous Tales of Ladybug and Cat Noir - The Illustrhater",
+                "description": "Marinette and Adrien are two extraordinary junior high students - they are the chosen ones to save Paris! And how exactly? By capturing evil creatures - the Akumas - that can transform anyone into a super villain.",
+                "localizedTitle": {
+                    "ar": "ميراكولوس: تيلز أوف ليدي-باغ آند كات نوير:ذي إللاستريتار"
+                },
+                "localizedDescription": {
+                    "ar": "مارينيت وأدريان طالبان استثنائيان في المدرسة الإعدادية. وقد تم اختيارهما لإنقاذ باريس! مهمتهما القبض على المخلوقات الشريرة - الأكوماس- التي يمكنها أن تتحول إلى أي شخص شرير خارق."
+                },
+                "startTime": 1750004100000,
+                "endTime": 1750005600000,
+                "images": [
+                    {
+                        "imageUrl": "http://s3-eu-west-1.amazonaws.com/rockettv.media.images/poster_streaming/EPG273371_landscape10_MASTER298158.jpg",
+                        "width": 711,
+                        "height": 400
+                    }
+                ],
+                "seasonNumber": 6,
+                "programType": "kids",
+                "listingGuid": "INT-INTIGRAL-LISTING-9a29943cc",
+                "ratings": [
+                    {
+                        "scheme": "urn:www.citc.gov.sa",
+                        "rating": "family",
+                        "subRatings": []
+                    },
+                    {
+                        "scheme": "urn:simple",
+                        "rating": "g",
+                        "subRatings": []
+                    }
+                ]
+            },
+            {
+                "listingId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/Listing/683136040009",
+                "paId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/ProgramAvailability/587756072202",
+                "title": "Big City Greens - Internetted/ Guiding Gregly",
+                "description": "Ten-year-old country boy Cricket Green is moving to the big city! Along with his older sister Tilly, father Bill and wild Gramma Alice, this small family can find big adventures no matter where they are!",
+                "localizedTitle": {
+                    "ar": "بيغ سيتي غرينز:إنترنيتيد / غايدينغ غريغلي"
+                },
+                "localizedDescription": {
+                    "ar": "تابعوا المغامرات الغريبة للصبي الريفي المتفائل اللعوب (كريكيت غرين) ذو الأعوام العشرة، وأخته الكبرى تيلي ووالدهما bيل والجدّة آليس، فمع فضول كريكيت الفطري وحماسه الزائد يقودانه ومعه عائلته إلى رحلات ومغامرات لا تُنسى."
+                },
+                "startTime": 1750005600000,
+                "endTime": 1750007100000,
+                "images": [
+                    {
+                        "imageUrl": "http://s3-eu-west-1.amazonaws.com/rockettv.media.images/landscape_streaming/S0010820004089.jpg",
+                        "width": 1920,
+                        "height": 1080
+                    }
+                ],
+                "seasonNumber": 4,
+                "programType": "kids",
+                "listingGuid": "INT-INTIGRAL-LISTING-88d4c371f",
+                "ratings": [
+                    {
+                        "scheme": "urn:www.citc.gov.sa",
+                        "rating": "family",
+                        "subRatings": []
+                    },
+                    {
+                        "scheme": "urn:simple",
+                        "rating": "g",
+                        "subRatings": []
+                    }
+                ]
+            },
+            {
+                "listingId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/Listing/683136040003",
+                "paId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/ProgramAvailability/588410919990",
+                "title": "Big City Greens - Family Tree/ Unguarded",
+                "description": "Ten-year-old country boy Cricket Green is moving to the big city! Along with his older sister Tilly, father Bill and wild Gramma Alice, this small family can find big adventures no matter where they are!",
+                "localizedTitle": {
+                    "ar": "بيغ سيتي غرينز:فاميلي تري / آنغارديد"
+                },
+                "localizedDescription": {
+                    "ar": "تابعوا المغامرات الغريبة للصبي الريفي المتفائل اللعوب (كريكيت غرين) ذو الأعوام العشرة، وأخته الكبرى تيلي ووالدهما bيل والجدّة آليس، فمع فضول كريكيت الفطري وحماسه الزائد يقودانه ومعه عائلته إلى رحلات ومغامرات لا تُنسى."
+                },
+                "startTime": 1750007100000,
+                "endTime": 1750008300000,
+                "images": [
+                    {
+                        "imageUrl": "http://s3-eu-west-1.amazonaws.com/rockettv.media.images/landscape_streaming/S0010820004089.jpg",
+                        "width": 1920,
+                        "height": 1080
+                    }
+                ],
+                "seasonNumber": 4,
+                "programType": "kids",
+                "listingGuid": "INT-INTIGRAL-LISTING-e2b17e601",
+                "ratings": [
+                    {
+                        "scheme": "urn:www.citc.gov.sa",
+                        "rating": "family",
+                        "subRatings": []
+                    },
+                    {
+                        "scheme": "urn:simple",
+                        "rating": "g",
+                        "subRatings": []
+                    }
+                ]
+            },
+            {
+                "listingId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/Listing/683136040000",
+                "paId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/ProgramAvailability/678719016094",
+                "title": "Big City Greens - Stand",
+                "description": "Ten-year-old country boy Cricket Green is moving to the big city! Along with his older sister Tilly, father Bill and wild Gramma Alice, this small family can find big adventures no matter where they are!",
+                "localizedTitle": {
+                    "ar": "بيغ سيتي غرينز:ستاند-آبّ بيل"
+                },
+                "localizedDescription": {
+                    "ar": "تابعوا المغامرات الغريبة للصبي الريفي المتفائل اللعوب (كريكيت غرين) ذو الأعوام العشرة، وأخته الكبرى تيلي ووالدهما bيل والجدّة آليس، فمع فضول كريكيت الفطري وحماسه الزائد يقودانه ومعه عائلته إلى رحلات ومغامرات لا تُنسى."
+                },
+                "startTime": 1750008300000,
+                "endTime": 1750008900000,
+                "images": [
+                    {
+                        "imageUrl": "http://s3-eu-west-1.amazonaws.com/rockettv.media.images/landscape_streaming/S0010820004089.jpg",
+                        "width": 1920,
+                        "height": 1080
+                    }
+                ],
+                "seasonNumber": 4,
+                "programType": "kids",
+                "listingGuid": "INT-INTIGRAL-LISTING-3d0c8f9ad",
+                "ratings": [
+                    {
+                        "scheme": "urn:www.citc.gov.sa",
+                        "rating": "family",
+                        "subRatings": []
+                    },
+                    {
+                        "scheme": "urn:simple",
+                        "rating": "g",
+                        "subRatings": []
+                    }
+                ]
+            },
+            {
+                "listingId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/Listing/683133480309",
+                "paId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/ProgramAvailability/590759464293",
+                "title": "Primos - Summer of Los Diez/ Summer of Lit",
+                "description": "\"Primos\" follows Tater Ramirez Humphrey, an eccentric girl who has big dreams for her future and just one summer to figure them all out, complicated by all 12 of her cousins coming to visit.",
+                "localizedTitle": {
+                    "ar": "بريموس:سمّر أوف لوز دييز..."
+                },
+                "localizedDescription": {
+                    "ar": "تدور أحداث المسلسل حول تيتر راميريز هَمفري، فتاة غريبة الأطوار تحلم بأحلام كبيرة لمستقبلها كما تراها لنفسها، وليس أمامها سوى هذا الصيف الوحيد لتحقيقها؛ لكن الأمور تتعقد بسبب زيارة جميع أبناء عمومتها البالغ عددهم 12 لزيارتها."
+                },
+                "startTime": 1750008900000,
+                "endTime": 1750010400000,
+                "images": [
+                    {
+                        "imageUrl": "http://s3-eu-west-1.amazonaws.com/rockettv.media.images/landscape_streaming/S0010936001002.jpg",
+                        "width": 1920,
+                        "height": 1080
+                    }
+                ],
+                "seasonNumber": 1,
+                "programType": "kids",
+                "listingGuid": "INT-INTIGRAL-LISTING-fe511dd57",
+                "ratings": [
+                    {
+                        "scheme": "urn:www.citc.gov.sa",
+                        "rating": "family",
+                        "subRatings": []
+                    },
+                    {
+                        "scheme": "urn:simple",
+                        "rating": "g",
+                        "subRatings": []
+                    }
+                ]
+            },
+            {
+                "listingId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/Listing/683133480308",
+                "paId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/ProgramAvailability/593855016424",
+                "title": "Kiff - Kiff is Good at Sports/ Mushroommates",
+                "description": "Follow Kiff, an optimistic squirrel whose thirst for life takes her on countless adventures alongside Barry, her chill bunny bestie. Set in a world where animals and magical oddballs tackle day-to-day life together, the duo navigate school, relationships, and their often-eccentric community.",
+                "localizedTitle": {
+                    "ar": "كِفّ:كيفّ إز غوود آت سبورتس / ماشرومميتس"
+                },
+                "localizedDescription": {
+                    "ar": "يتابع المسلسل أنثى سنجاب متفائلة، يقودها تعطشها للحياة إلى عيش مغامرات عديدة في بلدتها مع صديقها المفضل الرائع (باري). تجري الأحداث في بلدة تتعايش فيها الحيوانات والمخلوقات السحرية، ويخوض الثنائي معاً المدرسة والعلاقات ومجتمعها الذي غالباً ما يتسم بالغرابة."
+                },
+                "startTime": 1750010400000,
+                "endTime": 1750011600000,
+                "images": [
+                    {
+                        "imageUrl": "http://s3-eu-west-1.amazonaws.com/rockettv.media.images/landscape_streaming/S0010800001025.jpg",
+                        "width": 1920,
+                        "height": 1080
+                    }
+                ],
+                "seasonNumber": 1,
+                "programType": "kids",
+                "listingGuid": "INT-INTIGRAL-LISTING-81311e228",
+                "ratings": [
+                    {
+                        "scheme": "urn:www.citc.gov.sa",
+                        "rating": "family",
+                        "subRatings": []
+                    },
+                    {
+                        "scheme": "urn:simple",
+                        "rating": "g",
+                        "subRatings": []
+                    }
+                ]
+            },
+            {
+                "listingId": null,
+                "paId": null,
+                "title": "Raven's Home - Sleevemore Part One: Frozen",
+                "description": "",
+                "localizedTitle": {
+                    "ar": ""
+                },
+                "localizedDescription": {
+                    "ar": ""
+                },
+                "startTime": 1750011600000,
+                "endTime": 1750013100000,
+                "images": [],
+                "seasonNumber": null,
+                "programType": "entertainment",
+                "listingGuid": null,
+                "ratings": []
+            },
+            {
+                "listingId": null,
+                "paId": null,
+                "title": "Raven's Home - Sleevemore Part Two: Found",
+                "description": "",
+                "localizedTitle": {
+                    "ar": ""
+                },
+                "localizedDescription": {
+                    "ar": ""
+                },
+                "startTime": 1750013100000,
+                "endTime": 1750014600000,
+                "images": [],
+                "seasonNumber": null,
+                "programType": "entertainment",
+                "listingGuid": null,
+                "ratings": []
+            },
+            {
+                "listingId": null,
+                "paId": null,
+                "title": "Wizards Beyond Waverly Place - The Legend of Creepy Follows",
+                "description": "",
+                "localizedTitle": {
+                    "ar": ""
+                },
+                "localizedDescription": {
+                    "ar": ""
+                },
+                "startTime": 1750014600000,
+                "endTime": 1750016100000,
+                "images": [],
+                "seasonNumber": null,
+                "programType": "entertainment",
+                "listingGuid": null,
+                "ratings": []
+            },
+            {
+                "listingId": null,
+                "paId": null,
+                "title": "Wizards Beyond Waverly Place - We're Gonna Need a Bigger Float",
+                "description": "",
+                "localizedTitle": {
+                    "ar": ""
+                },
+                "localizedDescription": {
+                    "ar": ""
+                },
+                "startTime": 1750016100000,
+                "endTime": 1750017600000,
+                "images": [],
+                "seasonNumber": null,
+                "programType": "entertainment",
+                "listingGuid": null,
+                "ratings": []
+            },
+            {
+                "listingId": null,
+                "paId": null,
+                "title": "Jessie - Morning Rush",
+                "description": "",
+                "localizedTitle": {
+                    "ar": ""
+                },
+                "localizedDescription": {
+                    "ar": ""
+                },
+                "startTime": 1750017600000,
+                "endTime": 1750019100000,
+                "images": [],
+                "seasonNumber": null,
+                "programType": "entertainment",
+                "listingGuid": null,
+                "ratings": []
+            },
+            {
+                "listingId": null,
+                "paId": null,
+                "title": "Jessie - Lights, Camera, Distraction",
+                "description": "",
+                "localizedTitle": {
+                    "ar": ""
+                },
+                "localizedDescription": {
+                    "ar": ""
+                },
+                "startTime": 1750019100000,
+                "endTime": 1750020600000,
+                "images": [],
+                "seasonNumber": null,
+                "programType": "entertainment",
+                "listingGuid": null,
+                "ratings": []
+            },
+            {
+                "listingId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/Listing/683136552202",
+                "paId": "http://data.entertainment.tv.theplatform.eu/entertainment/data/ProgramAvailability/587745832257",
+                "title": "Gravity Falls - Dipper vs. Manliness",
+                "description": "When twins Dipper and Mabel are shipped off by their parents to their Great Uncle Stan's home in Gravity Falls for the summer, they realize something rather strange is going on in the town.",
+                "localizedTitle": {
+                    "ar": "غرافيتي فولز:ديبّر × مانلينيسّ"
+                },
+                "localizedDescription": {
+                    "ar": "يقوم والدي ديبر وماربل بإرسالهما إلى منزل العم ستان في شلالات غرافيتي لموسم الصيف، يدركان هناك أن شيئاً غريباً على وشك الحدوث في البلدة."
+                },
+                "startTime": 1750020600000,
+                "endTime": 1750022100000,
+                "images": [
+                    {
+                        "imageUrl": "http://s3-eu-west-1.amazonaws.com/rockettv.media.images/poster_streaming/EPG131725_landscape10_MASTER289110.jpg",
+                        "width": 3000,
+                        "height": 1688
+                    }
+                ],
+                "seasonNumber": 1,
+                "programType": "kids",
+                "listingGuid": "INT-INTIGRAL-LISTING-8832146a7",
+                "ratings": [
+                    {
+                        "scheme": "urn:www.citc.gov.sa",
+                        "rating": "family",
+                        "subRatings": []
+                    },
+                    {
+                        "scheme": "urn:simple",
+                        "rating": "g",
+                        "subRatings": []
+                    }
+                ]
+            }
+        ]
+    }
+]
+```
